@@ -1,4 +1,4 @@
-# 🛍️ Solid Simple — Telegram Shop Bot
+# 🛍️Telegram Shop Bot
 
 > **Production-ready** Telegram бот-магазин с AI-консультантом, оплатой через YooKassa и интеграцией GigaChat.
 
