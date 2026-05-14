@@ -1,0 +1,22 @@
+# Telegram Bot Framework
+python-telegram-bot==21.10
+
+# Environment Variables
+python-dotenv==1.0.0
+
+# HTTP Client
+httpx==0.27.0
+aiohttp==3.9.0
+requests==2.31.0
+
+# Database
+PyMySQL==1.1.0
+
+# Payment Integration
+yookassa==3.1.0
+
+# Security
+cryptography==42.0.0
+
+# Utilities
+Pillow==10.2.0

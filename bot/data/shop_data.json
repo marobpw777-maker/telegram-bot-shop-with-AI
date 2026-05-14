@@ -1,0 +1,2873 @@
+{
+  "Slides": [
+    {
+      "SlideID": "S01",
+      "SlideTitle": "Главный",
+      "SlideText": "🌿 Добро пожаловать в мир ароматов, которые становятся частью тебя\n\nSolidSimple — это место, где рождаются тёплые воспоминания и честные эмоции. Где каждая текстура помнит тепло руки, а ароматы становятся продолжением твоего дня.\n\nМы создаём не просто парфюмерию — а состояния души. Выбери то, что откликается тебе прямо сейчас.",
+      "ImagePath": "photos/Лого/ЛОГО.jpg",
+      "Buttons": [
+        {
+          "Label": "📦 Каталог",
+          "Callback": "cat:catalog",
+          "Target": "S_CATALOG",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": false,
+          "persistent": true
+        },
+        {
+          "Label": "🎯 Хиты",
+          "Callback": "cat:quick_buy",
+          "Target": "S_QUICK_BUY",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": false,
+          "persistent": true
+        },
+        {
+          "Label": "🎁 Акции",
+          "Callback": "cat:promo",
+          "Target": "S_PROMO",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": false,
+          "persistent": true
+        },
+        {
+          "Label": "ℹ️ О нас",
+          "Callback": "cat:about",
+          "Target": "S_ABOUT",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": false,
+          "persistent": true
+        },
+        {
+          "Label": "📞 Контакты",
+          "Callback": "cat:contacts",
+          "Target": "S_CONTACTS",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": false,
+          "persistent": true
+        },
+        {
+          "Label": "📌 Важная информация",
+          "Callback": "cat:info",
+          "Target": "S_INFO",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": false,
+          "persistent": true
+        },
+        {
+          "Label": "Корзина",
+          "Callback": "cart:view",
+          "Target": "S_CART",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": false,
+          "persistent": true,
+          "Style": "danger"
+        }
+      ]
+    },
+    {
+      "SlideID": "S_PROMO",
+      "SlideTitle": "Акции",
+      "SlideText": "🎁 *Акции и специальные предложения!*\n\n✨ **Скидка 10% на первый заказ**\n• Для новых покупателей\n• Автоматически при оформлении\n\n🚚 **Бесплатная доставка**\n• При заказе от 3000 рублей\n• По всей России\n\n🌿 **Сезонные распродажи**\n• Следите за обновлениями\n• Уникальные предложения\n\n🎉 **Подарки за отзывы**\n• Оставляйте отзывы о покупках\n• Получайте бонусы на следующий заказ",
+      "ImagePath": "photos/Лого/ЛОГО 1.jpg",
+      "Buttons": [
+        {
+          "Label": "⬅️ Назад",
+          "Callback": "nav:back",
+          "Target": "S01",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": false,
+          "persistent": false,
+		  "Style": "primary"
+        },
+        {
+          "Label": "🏠 Главная",
+          "Callback": "nav:home",
+          "Target": "S01",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": false,
+          "persistent": false,
+		  "Style": "primary"
+        }
+      ]
+    },
+    {
+      "SlideID": "S_ABOUT",
+      "SlideTitle": "О нас",
+      "SlideText": "ℹ️ *SolidSimple*\n\n🌿 **Наша философия:**\nНаука встречается с магией ощущений. Без громких обещаний — только молекулы, которые работают, и эмоции, которые остаются.\n\n✨ **Что мы создаем:**\n• Качественная косметика ручной работы\n• Натуральные ингредиенты\n• Уникальные ароматические композиции\n• Продукты с научным подходом\n\n🎨 **Наш подход:**\nКаждый продукт — это сочетание химической точности и поэтической гармонии. Мы исследуем, как ароматы влияют на эмоции и состояние.\n\n❤️ **С любовью к деталям:**\nОтбираем лучшие ингредиенты и создаем продукты, которые становятся частью вашей атмосферы.",
+      "ImagePath": "photos/Лого/ЛОГО 2.jpg",
+      "Buttons": [
+        {
+          "Label": "⬅️ Назад",
+          "Callback": "nav:back",
+          "Target": "S01",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": false,
+          "persistent": false,
+		  "Style": "primary"
+        },
+        {
+          "Label": "🏠 Главная",
+          "Callback": "nav:home",
+          "Target": "S01",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": false,
+          "persistent": false,
+		  "Style": "primary"
+        }
+      ]
+    },
+    {
+      "SlideID": "S_CONTACTS",
+      "SlideTitle": "Контакты",
+      "SlideText":"💫 *Мы всегда на связи и рады вам!*\n\nСпасибо, что выбрали нас! ❤️\n\n📢 *Подписывайтесь на наш канал* \nhttps://t.me/SolidandSimple\nТам мы делимся новинками, советами по уходу и вдохновляющими историями ✨\n\n📧 *Пишите на почту*\ninfo@solidsimple.ru — отвечаем в течение дня!\n\n📞 *Звоните нам* \n+7 (985) 291-61-55 — чтобы услышать друг друга 😊\n\n📍 *Приходите в гости*\nМосква, Валовая ул., 33\n(3 минуты от м. Добрынинская)\n\n🕒 *Когда мы особенно ждем вас:*\nПн–Пт: 09:00 — 18:00\nСб–Вс: 10:00 — 16:00\n\n🚚 *Доставляем вашу любимую косметику* \nпо всей России и странам СНГ — чтобы красота была доступна всем!\n\n⚙️ *Техподдержка и разработка бота*\nЕсли возникли проблемы с работой бота — @Manukyan_Artur_R",
+      "ImagePath": "photos/Лого/ЛОГО 3.jpg",
+      "Buttons": [
+        {
+          "Label": "⬅️ Назад",
+          "Callback": "nav:back",
+          "Target": "S01",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": false,
+          "persistent": false,
+		  "Style": "primary"
+        },
+        {
+          "Label": "🏠 Главная",
+          "Callback": "nav:home",
+          "Target": "S01",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": false,
+          "persistent": false,
+		  "Style": "primary"
+        }
+      ]
+    },
+    {
+      "SlideID": "S_INFO",
+      "SlideTitle": "Важная информация",
+      "SlideText": "\n📌 ВАЖНАЯ ИНФОРМАЦИЯ — ПУБЛИЧНАЯ ОФЕРТА, ли от пр",
+      "ImagePath": "photos/Лого/ЛОГО 4.jpg",
+      "Buttons": [
+        {
+          "Label": "⬅️ Назад",
+          "Callback": "nav:back",
+          "Target": "S01",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": false,
+          "persistent": false,
+		  "Style": "primary"
+        },
+        {
+          "Label": "🏠 Главная",
+          "Callback": "nav:home",
+          "Target": "S01",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": false,
+          "persistent": false,
+		  "Style": "primary"
+        }
+      ]
+    },
+    {
+      "SlideID": "S_CATALOG",
+      "SlideTitle": "Каталог",
+      "SlideText": "✨ Пришло время выбрать направление нашей работы.\n\nКаждый продукт создан, что бы раскрыть твою природу и пробудить  уникальную атмосферу вокруг🔮\n\nВыбери категорию, которая откликается в тебе прямо сейчас. Я проведу тебя по ней бережно и внимательно. 🗺️💫\n\nКаждое решение — это шаг к себе. Сделай его осознанным. 💖",
+      "ImagePath": "photos/Лого/ЛОГО 5.jpg",
+      "Buttons": [
+        {
+          "Label": "Ароматы ✨",
+          "Callback": "cat:aroma",
+          "Target": "S_AR",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": false,
+          "persistent": false,
+          "Style": "primary"
+        },
+        {
+          "Label": "Для дома 🏡",
+          "Callback": "cat:home_goods",
+          "Target": "S_HOME_GOODS",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": false,
+          "persistent": false,
+          "Style": "primary"
+        },
+        {
+          "Label": "Уход за телом 🧴",
+          "Callback": "cat:body_care",
+          "Target": "S_BODY_CARE",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": false,
+          "persistent": false,
+          "Style": "primary"
+        },
+        {
+          "Label": "Волосы 🌊",
+          "Callback": "cat:hair",
+          "Target": "S_HAIR",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": false,
+          "persistent": false,
+          "Style": "primary"
+        },
+        {
+          "Label": "Автопарфюмы 🚗",
+          "Callback": "cat:car_perfumes",
+          "Target": "S_CAR",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": false,
+          "persistent": false,
+          "Style": "primary"
+        },
+        {
+          "Label": "Назад",
+          "Callback": "nav:back",
+          "Target": "S01",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": false,
+          "persistent": false,
+          "Style": "primary"
+        }
+      ]
+    },
+    {
+      "SlideID": "S_AR",
+      "SlideTitle": "Ароматы",
+      "SlideText": "✨ Наша миссия — пробудить память, снова научиться ощущать этот мир и единение с ним через запах.\n\nУникальные парфюмерные композиции создаются из натуральных компонентов : эфирных масел , абсолютов, возвращающих нас к звучанию природы\n\nВыбери форму аромата, которая резонирует с твоим образом жизни:",
+      "ImagePath": "photos/site/cart.jpg",
+      "Buttons": [
+        {
+          "Label": "Аромароллеры 💫",
+          "Callback": "cat:aroma_rollers",
+          "Target": "S_AR_ROLLERS",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": false,
+          "persistent": false,
+          "Style": "primary"
+        },
+        {
+          "Label": "Твердые духи ✨",
+          "Callback": "cat:solid_perfumes",
+          "Target": "S_SP",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": false,
+          "persistent": false,
+          "Style": "primary"
+        },
+        {
+          "Label": "Назад",
+          "Callback": "nav:back",
+          "Target": "S_CATALOG",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": false,
+          "persistent": false,
+          "Style": "primary"
+        }
+      ]
+    },
+    {
+      "SlideID": "S_AR_ROLLERS",
+      "SlideTitle": "Арома-роллеры",
+      "SlideText": "💫 Аромароллеры - это гармония природных ароматов и искусство создания парфюмерной композиции.\n\nКаждый роллер это погружение в иное состояние и атмосферу , состав создан на основе натуральных эфирных масел , смол и абсолютов.\n\nВыберите аромат, который откликнется вашему состоянию:",
+      "ImagePath": "photos/Лого/ЛОГО 6.jpg",
+      "Buttons": [
+        {
+          "Label": "Основа 🌱",
+          "Callback": "prod:AR01",
+          "Target": "product:AR01",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": true,
+          "persistent": false,
+          "Style": "primary"
+        },
+        {
+          "Label": "Тепло 🔥",
+          "Callback": "prod:AR02",
+          "Target": "product:AR02",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": true,
+          "persistent": false,
+          "Style": "primary"
+        },
+        {
+          "Label": "Желание 🌲",
+          "Callback": "prod:AR03",
+          "Target": "product:AR03",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": true,
+          "persistent": false,
+          "Style": "primary"
+        },
+        {
+          "Label": "Душа 🌙 ",
+          "Callback": "prod:AR04",
+          "Target": "product:AR04",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": true,
+          "persistent": false,
+          "Style": "primary"
+        },
+        {
+          "Label": "Вдох ⚗️",
+          "Callback": "prod:AR05",
+          "Target": "product:AR05",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": true,
+          "persistent": false,
+          "Style": "primary"
+        },
+        {
+          "Label": "Свет ☀️",
+          "Callback": "prod:AR06",
+          "Target": "product:AR06",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": true,
+          "persistent": false,
+          "Style": "primary"
+        },
+        {
+          "Label": "Луч ✨",
+          "Callback": "prod:AR07",
+          "Target": "product:AR07",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": true,
+          "persistent": false,
+          "Style": "primary"
+        },
+        {
+          "Label": "Назад",
+          "Callback": "nav:back",
+          "Target": "S_AR",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": false,
+          "persistent": false
+        },
+        {
+          "Label": "Корзина",
+          "Callback": "cart:view",
+          "Target": "S_CART",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": false,
+          "persistent": true,
+          "Style": "danger"
+        }
+      ]
+    },
+    {
+      "SlideID": "S_SP",
+      "SlideTitle": "Твёрдые духи",
+      "SlideText": "🎯 Концентрат пользы эфирных масел.\n\nМногофункциональный твёрдый парфюм для точечного ухода.\n\nИспользуйте как парфюм, бальзам для рук и кутикул, защита и востановление кончиков волос а так же природный дезодорант.",
+      "ImagePath": "photos/Лого/ЛОГО 7.jpg",
+      "Buttons": [
+        {
+          "Label": "Тишина 🌙",
+          "Callback": "prod:SP01",
+          "Target": "product:SP01",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": true,
+          "persistent": false,
+          "Style": "primary"
+        },
+        {
+          "Label": "Пробуждение 🌅",
+          "Callback": "prod:SP02",
+          "Target": "product:SP02",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": true,
+          "persistent": false,
+          "Style": "primary"
+        },
+        {
+          "Label": "Энергия ⚡",
+          "Callback": "prod:SP03",
+          "Target": "product:SP03",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": true,
+          "persistent": false,
+          "Style": "primary"
+        },
+        {
+          "Label": "Гармония ☯️",
+          "Callback": "prod:SP04",
+          "Target": "product:SP04",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": true,
+          "persistent": false,
+          "Style": "primary"
+        },
+        {
+          "Label": "Легкость 🍃",
+          "Callback": "prod:SP05",
+          "Target": "product:SP05",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": true,
+          "persistent": false,
+          "Style": "primary"
+        },
+        {
+          "Label": "Эфир 🌌",
+          "Callback": "prod:SP06",
+          "Target": "product:SP06",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": true,
+          "persistent": false,
+          "Style": "primary"
+        },
+        {
+          "Label": "Сад 🌸",
+          "Callback": "prod:SP07",
+          "Target": "product:SP07",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": true,
+          "persistent": false,
+          "Style": "primary"
+        },
+        {
+          "Label": "Воздух ☁️",
+          "Callback": "prod:SP08",
+          "Target": "product:SP08",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": true,
+          "persistent": false,
+          "Style": "primary"
+        },
+        {
+          "Label": "Назад",
+          "Callback": "nav:back",
+          "Target": "S_AR",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": false,
+          "persistent": false,
+          "Style": "primary"
+        }
+      ]
+    },
+    {
+      "SlideID": "S_HAIR",
+      "SlideTitle": "Уход за волосами",
+      "SlideText": "✨ Этот уход — продолжение твоего путешествия к себе.\n\nКаждое касание — не просто ритуал, а шаг навстречу волосам мечты. Наши формулы — это карта, где наука встречается с заботой, а результат — твоя новая реальность.\n\nВыбери направление, которое откликнется именно тебе:",
+      "ImagePath": "photos/Лого/ЛОГО 8.jpg",
+      "Buttons": [
+        {
+          "Label": "Шампунь Роза-Грейпфрут 🌹🍊",
+          "Callback": "prod:D01",
+          "Target": "product:D01",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": true,
+          "persistent": false,
+          "Style": "primary"
+        },
+        {
+          "Label": "Шампунь Зеленый чай 🍵💚",
+          "Callback": "prod:D02",
+          "Target": "product:D02",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": true,
+          "persistent": false,
+          "Style": "primary"
+        },
+        {
+          "Label": "Шампунь Лаванда-Смородина 🌸🍇",
+          "Callback": "prod:D03",
+          "Target": "product:D03",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": true,
+          "persistent": false,
+          "Style": "primary"
+        },
+        {
+          "Label": "Кондиционер Облепиха 🧡🌟",
+          "Callback": "prod:D04",
+          "Target": "product:D04",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": true,
+          "persistent": false,
+          "Style": "primary"
+        },
+        {
+          "Label": "Назад",
+          "Callback": "nav:back",
+          "Target": "S_CATALOG",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": false,
+          "persistent": false,
+          "Style": "primary"
+        }
+      ]
+    },
+    {
+      "SlideID": "S_BODY_CARE",
+      "SlideTitle": "Уход за телом",
+      "SlideText": "🕊️ ИСКУССТВО РАССЛАБЛЕНИЯ\n\nВ мире, где время течет как песок сквозь пальцы, мы создали оазисы покоя — формулы, что дарят телу язык безмолвного диалога с самой собой.\n\nЗдесь каждая текстура становится шепотом заботы, а ритуал ухода — медитацией в движении. Это не просто уход, это поэзия ощущений, написанная для вашей кожи.\n\nВыберите главу вашего личного ритуала:",
+      "ImagePath": "photos/Лого/ЛОГО 9.jpg",
+      "Buttons": [
+        {
+          "Label": "Сыворотка «Авокадо» 🥑",
+          "Callback": "prod:SR01",
+          "Target": "product:SR01",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": true,
+          "persistent": false,
+          "Style": "primary"
+        },
+        {
+          "Label": "Массажное масло ☀️",
+          "Callback": "prod:MO01",
+          "Target": "product:MO01",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": true,
+          "persistent": false,
+          "Style": "primary"
+        },
+        {
+          "Label": "Баттеры 🧈",
+          "Callback": "cat:butters",
+          "Target": "S_BUTTERS",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": false,
+          "persistent": false
+        },
+        {
+          "Label": "Бальзамы 🌸",
+          "Callback": "cat:lip_balms",
+          "Target": "S_LIPBALMS",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": false,
+          "persistent": false
+        },
+        {
+          "Label": "Бомбочки для ванны 🛁",
+          "Callback": "cat:bath_bombs",
+          "Target": "S_BATHBOMBS",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": false,
+          "persistent": false
+        },
+        {
+          "Label": "Соль для ванны 🌊",
+          "Callback": "prod:BS01",
+          "Target": "product:BS01",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": true,
+          "persistent": false,
+          "Style": "primary"
+        },
+        {
+          "Label": "Назад",
+          "Callback": "nav:back",
+          "Target": "S_CATALOG",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": false,
+          "persistent": false,
+          "Style": "primary"
+        }
+      ]
+    },
+    {
+      "SlideID": "S_BUTTERS",
+      "SlideTitle": "Баттеры",
+      "SlideText": "☁️ Баттеры-объятия\n\nЕсли бы нежность можно было упаковать в баночку — это были бы они. Текстуры, что тают на коже как первый снег, превращая обычный день в ритуал самопознания.\n\nКаждый баттер — это глава из книги ваших ощущений, где наука становится поэзией, а уход — языком любви к себе.\n\nВыберите оттенок вашей нежности:",
+      "ImagePath": "photos/Лого/ЛОГО 10.jpg",
+      "Buttons": [
+        {
+          "Label": "Классический 🌙",
+          "Callback": "prod:BUT01",
+          "Target": "product:BUT01",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": true,
+          "persistent": false,
+          "Style": "primary"
+        },
+        {
+          "Label": "Лаванда 🌿",
+          "Callback": "prod:BUT02",
+          "Target": "product:BUT02",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": true,
+          "persistent": false,
+          "Style": "primary"
+        },
+        {
+          "Label": "Цитрус 🍊",
+          "Callback": "prod:BUT03",
+          "Target": "product:BUT03",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": true,
+          "persistent": false,
+          "Style": "primary"
+        },
+        {
+          "Label": "Шиповник 🌹",
+          "Callback": "prod:BUT04",
+          "Target": "product:BUT04",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": true,
+          "persistent": false,
+          "Style": "primary"
+        },
+        {
+          "Label": "Назад",
+          "Callback": "nav:back",
+          "Target": "S_BODY_CARE",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": false,
+          "persistent": false,
+          "Style": "primary"
+        }
+      ]
+    },
+    {
+      "SlideID": "S_LIPBALMS",
+      "SlideTitle": "Бальзамы для губ",
+      "SlideText": "💋 Бальзамы для губ: искусство точной заботы\n\nКонцентрат натуральных масел, где каждая формула решает свою задачу — от мгновенного увлажнения до надёжной защиты.\n\nВыберите аромат вашей гармонии:",
+      "ImagePath": "photos/Лого/ЛОГО 11.jpg",
+      "Buttons": [
+        {
+          "Label": "Мята ❄️",
+          "Callback": "prod:LB01",
+          "Target": "product:LB01",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": true,
+          "persistent": false,
+          "Style": "primary"
+        },
+        {
+          "Label": "Шоколад 🍫",
+          "Callback": "prod:LB02",
+          "Target": "product:LB02",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": true,
+          "persistent": false,
+          "Style": "primary"
+        },
+        {
+          "Label": "Универсальный 💎",
+          "Callback": "prod:LB03",
+          "Target": "product:LB03",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": true,
+          "persistent": false,
+          "Style": "primary"
+        },
+        {
+          "Label": "Назад",
+          "Callback": "nav:back",
+          "Target": "S_BODY_CARE",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": false,
+          "persistent": false,
+          "Style": "primary"
+        }
+      ]
+    },
+    {
+      "SlideID": "S_BATHBOMBS",
+      "SlideTitle": "Бомбочки для ванны",
+      "SlideText": "🌀 БОМБОЧКИ ДЛЯ ВАННЫ\n\nПревращение обычной ванны в церемонию наслаждения. Каждая бомбочка — это композиция эфирных масел и минералов для мгновенного погружения в гармонию.\n\nВыберите атмосферу вашего ритуала:",
+      "ImagePath": "photos/Лого/ЛОГО 12.jpg",
+      "Buttons": [
+        {
+          "Label": "Солнце ☀️",
+          "Callback": "prod:BB01",
+          "Target": "product:BB01",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": true,
+          "persistent": false,
+          "Style": "primary"
+        },
+        {
+          "Label": "Луна 🌙",
+          "Callback": "prod:BB02",
+          "Target": "product:BB02",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": true,
+          "persistent": false,
+          "Style": "primary"
+        },
+        {
+          "Label": "Тайга 🌲",
+          "Callback": "prod:BB03",
+          "Target": "product:BB03",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": true,
+          "persistent": false,
+          "Style": "primary"
+        },
+        {
+          "Label": "Назад",
+          "Callback": "nav:back",
+          "Target": "S_BODY_CARE",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": false,
+          "persistent": false,
+          "Style": "primary"
+        }
+      ]
+    },
+    {
+      "SlideID": "S_HOME_GOODS",
+      "SlideTitle": "Для дома",
+      "SlideText": "🏠 АРОМАТЫ ДОМА\n\nМы создаём эти ароматы с той же нежностью, с какой вы обустраиваете свой дом — вкладывая душу в каждую деталь.\n\nЗа натуральными формулами стоит любовь к природе: только отборные эфирные масла, чистые воски и бережно собранные травы. Мы знаем, что вы доверяете нам самое ценное — атмосферу вашего дома, и принимаем эту ответственность с трепетом.\n\nЭто больше чем продукты — это частичка нашей заботы о вашем уюте. Чтобы, возвращаясь домой, вы чувствовали: здесь вас ждут и любят.\n\nВыберите формулу тепла для вашего пространства:",
+      "ImagePath": "photos/Лого/ЛОГО 13.jpg",
+      "Buttons": [
+        {
+          "Label": "Диффузоры 🌊",
+          "Callback": "cat:diffusers",
+          "Target": "S_DIFFUSERS",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": false,
+          "persistent": false
+        },
+        {
+          "Label": "Саше 🍃",
+          "Callback": "cat:sachets",
+          "Target": "S_SACHES",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": false,
+          "persistent": false
+        },
+        {
+          "Label": "Пчелиные свечи 🐝",
+          "Callback": "cat:beecandles",
+          "Target": "S_BEECANDLES",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": false,
+          "persistent": false
+        },
+        {
+          "Label": "Свечи в бетоне 🧱",
+          "Callback": "cat:concretecandles",
+          "Target": "S_CONCRETECANDLES",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": false,
+          "persistent": false
+        },
+        {
+          "Label": "Назад",
+          "Callback": "nav:back",
+          "Target": "S_CATALOG",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": false,
+          "persistent": false,
+          "Style": "primary"
+        }
+      ]
+    },
+    {
+      "SlideID": "S_DIFFUSERS",
+      "SlideTitle": "Диффузоры",
+      "SlideText": "🌫️ ДИФФУЗОРЫ\n\nТихая поэзия ароматов для вашего дома. Уникальные композиции с добавлением натуральных эфирных масел , для создания особенной атмосферы в вашем пространстве.\n\nВыберите аромат, который станет частью вашей истории:",
+      "ImagePath": "photos/Лого/ЛОГО 14.jpg",
+      "Buttons": [
+        {
+          "Label": "Ты 💖",
+          "Callback": "prod:DI01",
+          "Target": "product:DI01",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": true,
+          "persistent": false,
+          "Style": "primary"
+        },
+        {
+          "Label": "Любовь 🌹",
+          "Callback": "prod:DI02",
+          "Target": "product:DI02",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": true,
+          "persistent": false,
+          "Style": "primary"
+        },
+        {
+          "Label": "Путь 🗺️",
+          "Callback": "prod:DI03",
+          "Target": "product:DI03",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": true,
+          "persistent": false,
+          "Style": "primary"
+        },
+        {
+          "Label": "Чистота 🌊",
+          "Callback": "prod:DI04",
+          "Target": "product:DI04",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": true,
+          "persistent": false,
+          "Style": "primary"
+        },
+        {
+          "Label": "Тепло ☀️",
+          "Callback": "prod:DI05",
+          "Target": "product:DI05",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": true,
+          "persistent": false,
+          "Style": "primary"
+        },
+        {
+          "Label": "Детство 🍭",
+          "Callback": "prod:DI06",
+          "Target": "product:DI06",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": true,
+          "persistent": false,
+          "Style": "primary"
+        },
+        {
+          "Label": "Назад",
+          "Callback": "nav:back",
+          "Target": "S_HOME_GOODS",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": false,
+          "persistent": false,
+          "Style": "primary"
+        }
+      ]
+    },
+    {
+      "SlideID": "S_SACHES",
+      "SlideTitle": "Саше",
+      "SlideText": "🎐 АРОМА-САШЕ\n\nНежные саше из натуральных материалов для пролонгированной ароматерапии. Созданы с любовью, чтобы наполнить ваш дом уютом.\n\nВыберите аромат:",
+      "ImagePath": "photos/Лого/ЛОГО 15.jpg",
+      "Buttons": [
+        {
+          "Label": "Париж 🗼",
+          "Callback": "prod:SACH01",
+          "Target": "product:SACH01",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": true,
+          "persistent": false,
+          "Style": "primary"
+        },
+        {
+          "Label": "Дом 🏠",
+          "Callback": "prod:SACH02",
+          "Target": "product:SACH02",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": true,
+          "persistent": false,
+          "Style": "primary"
+        },
+        {
+          "Label": "Санрайз 🌅",
+          "Callback": "prod:SACH03",
+          "Target": "product:SACH03",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": true,
+          "persistent": false,
+          "Style": "primary"
+        },
+        {
+          "Label": "Скандинавия ❄️",
+          "Callback": "prod:SACH04",
+          "Target": "product:SACH04",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": true,
+          "persistent": false,
+          "Style": "primary"
+        },
+        {
+          "Label": "Луна 🌙",
+          "Callback": "prod:SACH05",
+          "Target": "product:SACH05",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": true,
+          "persistent": false,
+          "Style": "primary"
+        },
+        {
+          "Label": "Назад",
+          "Callback": "nav:back",
+          "Target": "S_HOME_GOODS",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": false,
+          "persistent": false,
+          "Style": "primary"
+        }
+      ]
+    },
+    {
+      "SlideID": "S_BEECANDLES",
+      "SlideTitle": "Пчелиные свечи",
+      "SlideText": "🕯️ ПЧЕЛИНЫЕ СВЕЧИ\n\nНатуральный воск, созданный пчёлами и наполненный гармонией эфирных масел. Каждая свеча — это частичка природы, приносящая в ваш дом тепло и уют.\n\nВыберите аромат, который согреет ваше сердце:",
+      "ImagePath": "photos/Лого/ЛОГО 16.jpg",
+      "Buttons": [
+        {
+          "Label": "Лаванда-Лемонграсс 🌿",
+          "Callback": "prod:BE01",
+          "Target": "product:BE01",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": true,
+          "persistent": false,
+          "Style": "primary"
+        },
+        {
+          "Label": "Календула-Ваниль 🌼",
+          "Callback": "prod:BE02",
+          "Target": "product:BE02",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": true,
+          "persistent": false,
+          "Style": "primary"
+        },
+        {
+          "Label": "Роза-Апельсин 🌹🍊",
+          "Callback": "prod:BE03",
+          "Target": "product:BE03",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": true,
+          "persistent": false,
+          "Style": "primary"
+        },
+        {
+          "Label": "Назад",
+          "Callback": "nav:back",
+          "Target": "S_HOME_GOODS",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": false,
+          "persistent": false,
+          "Style": "primary"
+        }
+      ]
+    },
+    {
+      "SlideID": "S_CONCRETECANDLES",
+      "SlideTitle": "Свечи в бетоне",
+      "SlideText": "🏗️ СВЕЧИ В БЕТОНЕ\n\nТяжелая, фактурная форма из архитектурного бетона создана вручную: мы шлифуем каждую форму, добиваясь идеального баланса между грубой природной текстурой камня и мягкостью линий.\n\nСвеча создана из натуральных восков. Ароматы разработаны нами на основе   из арома-масел высшего качества и натуральных эфирных масел. Сгорая, свеча наполняет дом насыщенным ароматом и особой атмосферой уюта . \n\nВыберите аромат, который станет акцентом вашего интерьера:",
+      "ImagePath": "photos/Лого/ЛОГО 17.jpg",
+      "Buttons": [
+        {
+          "Label": "Париж 🗼",
+          "Callback": "prod:CC01",
+          "Target": "product:CC01",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": true,
+          "persistent": false,
+          "Style": "primary"
+        },
+        {
+          "Label": "Дом 🏠",
+          "Callback": "prod:CC02",
+          "Target": "product:CC02",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": true,
+          "persistent": false,
+          "Style": "primary"
+        },
+        {
+          "Label": "Скандинавия ❄️",
+          "Callback": "prod:CC03",
+          "Target": "product:CC03",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": true,
+          "persistent": false,
+          "Style": "primary"
+        },
+        {
+          "Label": "Назад",
+          "Callback": "nav:back",
+          "Target": "S_HOME_GOODS",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": false,
+          "persistent": false,
+          "Style": "primary"
+        }
+      ]
+    },
+    {
+      "SlideID": "S_CAR",
+      "SlideTitle": "Автопарфюмы",
+      "SlideText": "🚗 АВТОПАРФЮМ\n\nКонцентрированные формулы, создающие атмосферу гармонии в дороге. Наши ароматы — это забота о вашем пространстве, где каждая поездка становится продолжением дома.\n\nВыберите спутника для ваших путешествий:",
+      "ImagePath": "photos/Лого/ЛОГО 18.jpg",
+      "Buttons": [
+        {
+          "Label": "Дом 🏠",
+          "Callback": "prod:CP01",
+          "Target": "product:CP01",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": true,
+          "persistent": false,
+          "Style": "primary"
+        },
+        {
+          "Label": "Скандинавия ❄️",
+          "Callback": "prod:CP02",
+          "Target": "product:CP02",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": true,
+          "persistent": false,
+          "Style": "primary"
+        },
+        {
+          "Label": "Луна 🌙",
+          "Callback": "prod:CP03",
+          "Target": "product:CP03",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": true,
+          "persistent": false,
+          "Style": "primary"
+        },
+        {
+          "Label": "Ты 💫",
+          "Callback": "prod:CP04",
+          "Target": "product:CP04",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": true,
+          "persistent": false,
+          "Style": "primary"
+        },
+        {
+          "Label": "Любовь💕",
+          "Callback": "prod:CP05",
+          "Target": "product:CP05",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": true,
+          "persistent": false,
+          "Style": "primary"
+        },
+        {
+          "Label": "Путь 🗺️",
+          "Callback": "prod:CP06",
+          "Target": "product:CP06",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": true,
+          "persistent": false,
+          "Style": "primary"
+        },
+        {
+          "Label": "Чистота 🌊",
+          "Callback": "prod:CP07",
+          "Target": "product:CP07",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": true,
+          "persistent": false,
+          "Style": "primary"
+        },
+        {
+          "Label": "Тепло ☀️",
+          "Callback": "prod:CP08",
+          "Target": "product:CP08",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": true,
+          "persistent": false,
+          "Style": "primary"
+        },
+        {
+          "Label": "Назад",
+          "Callback": "nav:back",
+          "Target": "S_CATALOG",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": false,
+          "persistent": false,
+          "Style": "primary"
+        }
+      ]
+    },
+    {
+      "SlideID": "S_CART",
+      "SlideTitle": "Корзина",
+      "SlideText": "{cart_items}\\nИТОГО: {subtotal} руб.",
+      "ImagePath": "photos/Лого/ЛОГО 19.jpg",
+      "Buttons": [
+        {
+          "Label": "Оформить",
+          "Callback": "checkout:start",
+          "Target": "S_CHECKOUT",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": false,
+          "persistent": false
+        },
+        {
+          "Label": "Очистить",
+          "Callback": "cart:clear",
+          "Target": "S_CART",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": false,
+          "persistent": false
+        },
+        {
+          "Label": "Продолжить покупки",
+          "Callback": "nav:home",
+          "Target": "S01",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": false,
+          "persistent": false
+        },
+        {
+          "Label": "Назад",
+          "Callback": "nav:back",
+          "Target": "previous",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": false,
+          "persistent": false,
+          "Style": "primary"
+        }
+      ]
+    },
+    {
+      "SlideID": "S_CHECKOUT",
+      "SlideTitle": "Оформление",
+      "SlideText": "Проверьте адрес и способ оплаты.",
+      "ImagePath": "photos/Лого/ЛОГО 20.jpg",
+      "Buttons": [
+        {
+          "Label": "Подтвердить и оплатить",
+          "Callback": "confirm_order:TMP",
+          "Target": "S_CONFIRM",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": false,
+          "persistent": false
+        },
+        {
+          "Label": "Назад в корзину",
+          "Callback": "nav:back",
+          "Target": "S_CART",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": false,
+          "persistent": false,
+          "Style": "primary"
+        }
+      ]
+    },
+    {
+      "SlideID": "S_CONFIRM",
+      "SlideTitle": "Заказ принят",
+      "SlideText": "Спасибо! Ваш заказ #{order_id} принят. Мы свяжемся с вами.",
+      "ImagePath": "photos/Лого/ЛОГО 21.jpg",
+      "Buttons": [
+        {
+          "Label": "Домой",
+          "Callback": "nav:home",
+          "Target": "S01",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": false,
+          "persistent": false
+        },
+        {
+          "Label": "Контакты",
+          "Callback": "info:contacts",
+          "Target": "S_CONTACTS",
+          "quick_buy": false,
+          "inline_add": false,
+          "show_in_list": false,
+          "persistent": false,
+          "Style": "primary"
+        }
+      ]
+    },
+	{
+      "SlideID": "S_QUICK_BUY",
+	  "SlideTitle": "Хиты продаж",
+	  "SlideText": "🎯 Наши хиты — товары, которые выбирают чаще всего.\n\n✨ Каждый из них прошёл проверку временем и любовью наших клиентов.",
+	  "ImagePath": "photos/Лого/ЛОГО 22.jpg",
+	  "Buttons": [
+		{
+		  "Label": "Текстильный спрей «Праздник» 🎉",
+		  "Callback": "prod:HS01",
+		  "Target": "product:HS01",
+		  "quick_buy": false,
+		  "inline_add": false,
+		  "show_in_list": true,
+		  "persistent": false
+		},
+		{
+		  "Label": "⬅️ Назад",
+		  "Callback": "nav:back",
+		  "Target": "S01",
+		  "quick_buy": false,
+		  "inline_add": false,
+		  "show_in_list": false,
+		  "persistent": false,
+		  "Style": "primary"
+		},
+		{
+		  "Label": "Корзина",
+		  "Callback": "cart:view",
+		  "Target": "S_CART",
+		  "quick_buy": false,
+		  "inline_add": false,
+		  "show_in_list": false,
+		  "persistent": true
+		}
+	  ]
+    }
+  ],
+ "Products": [
+    {
+      "ProductID": "AR01",
+      "ProductTitle": "Роллер «Основа»",
+      "ShortDesc": "🌿 Роллер, который становится вашим фундаментом для ежедневной стабилизации",
+      "Price": "2100",
+      "Volume": "10 мл",
+      "ImagePath": "photos/Аромароллеры/ОСНОВА.jpg",
+      "CategoryID": "aroma_rollers",
+      "Enabled": true,
+      "ShortLegalLine": "",
+      "AllergyShort": "Перед первым использованием проведите тест: нанесите на сгиб локтя, проверьте 24 ч.",
+      "StorageShort": "Хранить при +5…+25 °C, вдали от прямых солнечных лучей.",
+      "ContactShort": "",
+      "_SourcePreview": {
+        "orig_keys_count": 13
+      },
+      "description":"🌀 ОСНОВА: уверенность и баланс\n\n🌿 КОМПОЗИЦИЯ:\nВерх: мята, мелисса лимонная\nСердце: ветивер\nБаза: пачули, ваниль\n\nСвежесть мяты и лимонной мелиссы. В сердце сухой, древесный ветивер. Финальный аккорд глубокая, землистость пачули, с мягким, шлейфом ванили.\n\n✨ ЧТО ВЫ ПОЧУВСТВУЕТЕ:\n• Свежесть и ясность мыслей\n• Спокойную концентрацию\n• Ощущение внутреннего баланса\n\n🔬 СОСТАВ:\nмасло авокадо, масло миндаля\nЭфирные масла: ваниль, пачули, ветивер, мелисса лимонная, мята садовая.",
+      "text": "⚗️ Роллер «Основа» • ОСНОВА — научная ясность ума и спокойная концентрация. Как первое дыхание после грозы.",
+      "short_info": "Цена: 2100₽ • Объём: 10 мл",
+      "Buttons": [
+        {
+          "Label": "Важная информация",
+          "Callback": "nav:info",
+          "Target": "S_INFO"
+        }
+      ],
+      "allergy_test": "Перед первым использованием проведите тест: нанесите на сгиб локтя, проверьте 24 ч."
+    },
+    {
+      "ProductID": "AR02",
+      "ProductTitle": "Роллер «Тепло»",
+      "ShortDesc": "🌿 Создан для того, чтобы согреть тело и душу",
+      "Price": "2100",
+      "Volume": "10 мл",
+      "ImagePath": "photos/Аромароллеры/ТЕПЛО.jpg",
+      "CategoryID": "aroma_rollers",
+      "Enabled": true,
+      "ShortLegalLine": "Не является лекарственным средством.",
+      "AllergyShort": "Перед использованием проведите тест на аллергию.",
+      "StorageShort": "Хранить при +5…+25 °C, вдали от солнечных лучей.",
+      "ContactShort": "",
+      "description":"🔥 ТЕПЛО: Согревающая атмосфера\n\n🌿 КОМПОЗИЦИЯ:\nВерх: сладкий мандарин\nСердце: имбирь, кедр сибирский\nБаза: мирра, ладан\n\nСочный, сладкий мандарин, пряный и согревающий имбирь с смолисто-древесной нотой сибирского кедра. В конце глубокая, бальзамическая основа из дымного ладана и горьковато-медовой мирры.\n\n✨ ЧТО ВЫ ПОЧУВСТВУЕТЕ:\n• Согревающее действие\n• Чувства уюта\n• Подъем настроения\n\n🔬 СОСТАВ:\nмасло авокадо, масло миндаля\nЭфирные масла: кедр сибирский, ладан, мандарин сладкий, имбирь, мирра.",
+      "short_info": "Цена: 2100 ₽ • Объём: 10 мл",
+      "Buttons": [
+        {
+          "Label": "Купить — 2100 ₽ 🛒",
+          "Callback": "buy:AR02",
+          "Target": "S_BUY"
+        },
+        {
+          "Label": "Подробнее ✨",
+          "Callback": "nav:info:AR02",
+          "Target": "S_INFO"
+        }
+      ],
+      "allergy_test": "Перед первым использованием: нанесите на сгиб локтя, проверьте 24 ч."
+    },
+    {
+      "ProductID": "AR03",
+      "ProductTitle": "Роллер «Желание»",
+      "ShortDesc": "🌿 Скрытая страсть, пробуждающая творческую энергию",
+      "Price": "2100",
+      "Volume": "10 мл",
+      "ImagePath": "photos/Аромароллеры/ЖЕЛАНИЕ.jpg",
+      "CategoryID": "aroma_rollers",
+      "Enabled": true,
+      "ShortLegalLine": "Полный состав и инструкция — на упаковке.",
+      "AllergyShort": "Перед первым использованием проведите тест: нанесите на сгиб локтя, проверьте 24 ч.",
+      "StorageShort": "Хранить при +5…+25 °C, вдали от прямых солнечных лучей.",
+      "ContactShort": "@solid_simple_support",
+      "_SourcePreview": {
+        "orig_keys_count": 13
+      },
+      "description":"💫 ЖЕЛАНИЕ: чувственная гармония\n\n🌿 КОМПОЗИЦИЯ:\nВерх: апельсин\nСердце: нероли, иланг-иланг\nБаза: сандал, ваниль\n\nСолнечный апельсин и изысканно-горьковатый нероли, пьянящий шлейф иланг-иланга и кремовой, сладкой ванили и теплая обволакивающая основа из благородного сандала.\n\n✨ ЧТО ВЫ ПОЧУВСТВУЕТЕ:\n• Эмоциональный подъем как всплеск солнечного света\n• Раскрытие чувственности\n• Ощущение внутреннего сияния и притягательности\n\n🔬 СОСТАВ:\nмасло авокадо, масло миндаля\nЭфирные масла: апельсина, нероли, сандала, иланг-иланга, ванили.",
+      "Buttons": [
+        {
+          "Label": "Важная информация",
+          "Callback": "nav:info",
+          "Target": "S_INFO"
+        }
+      ]
+    },
+    {
+      "ProductID": "AR04",
+      "ProductTitle": "Роллер «Душа»",
+      "ShortDesc": "🌿 Легкое и свежее погружение в океан самопознания",
+      "Price": "2100",
+      "Volume": "10 мл",
+      "ImagePath": "photos/Аромароллеры/ДУША.jpg",
+      "CategoryID": "aroma_rollers",
+      "Enabled": true,
+      "ShortLegalLine": "Полный состав и инструкция — на упаковке.",
+      "AllergyShort": "Перед первым использованием проведите тест: нанесите на сгиб локтя, проверьте 24 ч.",
+      "StorageShort": "Хранить при +5…+25 °C, вдали от прямых солнечных лучей.",
+      "ContactShort": "@solid_simple_support",
+      "_SourcePreview": {
+        "orig_keys_count": 13
+      },
+      "description":"🕊 ДУША: легкость и гармония\n\n🌿 КОМПОЗИЦИЯ:\nВерх: бергамот\nСердце: жасмин, базилик\nБаза: алоэ вера\n\nОсвежающий, солнечно-горьковатый бергамот и прохладная, зелень алоэ вера, в сердце раскрывается роскошный, томный и сладко-пудровый жасмин с пряной, пикантной свежестью зеленого базилика.\n\n✨ ЧТО ВЫ ПОЧУВСТВУЕТЕ:\n• Ясность ума и свежесть восприятия\n• Чувство чистоты и лёгкости\n• Тонус и прилив сил\n\n🔬 СОСТАВ:\nмасло авокадо, масло миндаля\nЭфирные масла: базилик, бергамот, алоэ вера, жасмин.",
+      "text": "⚗️ Роллер «Душа» • ДУША — глубина, гармония, внутренний покой. Как прогулка в тишине природы.",
+      "short_info": "Цена: 2100₽ • Объём: 10 мл • Полный состав и инструкция — на упаковке.",
+      "Buttons": [
+        {
+          "Label": "Важная информация",
+          "Callback": "nav:info",
+          "Target": "S_INFO"
+        }
+      ],
+      "allergy_test": "Перед первым использованием проведите тест: нанесите на сгиб локтя, проверьте 24 ч."
+    },
+    {
+      "ProductID": "AR05",
+      "ProductTitle": "Роллер «Вдох»",
+      "ShortDesc": "🌿 Глубокое дыхание через открытое сердце",
+      "Price": "2100",
+      "Volume": "10 мл",
+      "ImagePath": "photos/Аромароллеры/ВДОХ.jpg",
+      "CategoryID": "aroma_rollers",
+      "Enabled": true,
+      "ShortLegalLine": "Полный состав и инструкция — на упаковке.",
+      "AllergyShort": "Перед первым использованием проведите тест: нанесите на сгиб локтя, проверьте 24 ч.",
+      "StorageShort": "Хранить при +5…+25 °C, вдали от прямых солнечных лучей.",
+      "ContactShort": "@solid_simple_support",
+      "_SourcePreview": {
+        "orig_keys_count": 13
+      },
+      "description":"💨 ВДОХ: любовь и гармония\n\n🌿 КОМПОЗИЦИЯ:\nВерх: грейпфрут\nСердце: шалфей мускатный, роза\nБаза: мирра, ладан\n\nИскрящийся, сочно-горьковатый грейпфрут и нежная роза, лесная глубина мускатного шалфея с бальзамическими нотами медовой мирры и смолистого, прохладного ладана.\n\n✨ ЧТО ВЫ ПОЧУВСТВУЕТЕ:\n• Ясность сознания\n• Гармонизацию эмоций\n• Чувство защищенности\n• Медитативное успокоение\n\n🔬 СОСТАВ:\nмасло авокадо, масло миндаля\nЭфирные масла: розы, грейпфрута, ладана, мирры, шалфея мускатного.",
+      "text": "⚗️ Роллер «Вдох» • ВДОХ — свежесть, простор и заряд энергии. Как вдох на берегу.",
+      "short_info": "Цена: 2100₽ • Объём: 10 мл • Полный состав и инструкция — на упаковке.",
+      "Buttons": [
+        {
+          "Label": "Важная информация",
+          "Callback": "nav:info",
+          "Target": "S_INFO"
+        }
+      ],
+      "allergy_test": "Перед первым использованием проведите тест: нанесите на сгиб локтя, проверьте 24 ч."
+    },
+    {
+      "ProductID": "AR06",
+      "ProductTitle": "Роллер «Свет»",
+      "ShortDesc": "🌿 Свобода мысли и самопознание",
+      "Price": "2100",
+      "Volume": "10 мл",
+      "ImagePath": "photos/Аромароллеры/СВЕТ.jpg",
+      "CategoryID": "aroma_rollers",
+      "Enabled": true,
+      "ShortLegalLine": "Полный состав и инструкция — на упаковке.",
+      "AllergyShort": "Перед первым использованием проведите тест: нанесите на сгиб локтя, проверьте 24 ч.",
+      "StorageShort": "Хранить при +5…+25 °C, вдали от прямых солнечных лучей.",
+      "ContactShort": "@solid_simple_support",
+      "_SourcePreview": {
+        "orig_keys_count": 13
+      },
+      "description":"🌟 СВЕТ: открытость и чистота\n\n🌿 КОМПОЗИЦИЯ:\nВерх: лимон\nСердце: мята садовая, лаванда\nБаза: розмарин\n\nХвойный и смолистый розмарин с чистой, горной свежестью лаванды, бодрящей зеленью садовой мяты, окружённой солнечным, цитрусовым аккордом лимона.\n\n✨ ЧТО ВЫ ПОЧУВСТВУЕТЕ:\n• Ощущение свежего горного воздуха и свободы\n• Прилив энергии и интеллектуальной бодрости\n• Очищение мыслей\n\n🔬 СОСТАВ:\nмасло авокадо, масло миндаля\nЭфирные масла: мята садовая, розмарин, лимон, лаванда высокогорная.",
+      "Buttons": [
+        {
+          "Label": "Важная информация",
+          "Callback": "nav:info",
+          "Target": "S_INFO"
+        }
+      ]
+    },
+    {
+      "ProductID": "AR07",
+      "ProductTitle": "Роллер «Луч»",
+      "ShortDesc": "🌿 Глубокий покой и сила горных цветов",
+      "Price": "2100",
+      "Volume": "10 мл",
+      "ImagePath": "photos/Аромароллеры/ЛУЧ.jpg",
+      "CategoryID": "aroma_rollers",
+      "Enabled": true,
+      "ShortLegalLine": "Полный состав и инструкция — на упаковке.",
+      "AllergyShort": "Перед первым использованием проведите тест: нанесите на сгиб локтя, проверьте 24 ч.",
+      "StorageShort": "Хранить при +5…+25 °C, вдали от прямых солнечных лучей.",
+      "ContactShort": "@solid_simple_support",
+      "_SourcePreview": {
+        "orig_keys_count": 13
+      },
+      "description":"🌿 КОМПОЗИЦИЯ:\nЛуч: Глубокое восстановление и баланс\nВерх: лемонграсс\nСердце: лаванда высокогорная\nБаза: камфора\n\nЯркая, цитрусово-зелёная свежесть лемонграсса, успокаивающая цветочная нота высокогорной лаванды и прозрачный, летучий и целебный шлейф камфоры, создающий ощущение ледяной чистоты.\n\n✨ ЧТО ВЫ ПОЧУВСТВУЕТЕ:\n• Чистоту дыхания и лёгкость в груди\n• Погружение в глубокую, ясную тишину\n• Мгновенное охлаждение и прояснение мыслей\n• Безопасность и покой горного уединения\n\n🔬 СОСТАВ:\nмасло авокадо, масло миндаля\nЭфирные масла: лемонграсс, лаванда высокогорная, камфора.",
+      "text": "⚗️ Роллер «Луч» • ЛУЧ — радость, сияние и энергетика. Как солнечный луч внутри вас.",
+      "short_info": "Цена: 2100₽ • Объём: 10 мл • Полный состав и инструкция — на упаковке.",
+      "Buttons": [
+        {
+          "Label": "Важная информация",
+          "Callback": "nav:info",
+          "Target": "S_INFO"
+        }
+      ],
+      "allergy_test": "Перед первым использованием проведите тест: нанесите на сгиб локтя, проверьте 24 ч."
+    },
+    {
+      "ProductID": "SP01",
+      "ProductTitle": "Твёрдые духи «Тишина»",
+      "ShortDesc": "💜 Покой и гармония чувств",
+      "Price": "1000",
+      "Volume": "20 гр",
+      "ImagePath": "photos/Твердые духи/ТИШИНА.jpg",
+      "CategoryID": "solid_perfumes",
+      "Enabled": true,
+      "ShortLegalLine": "Полный состав и инструкция — на упаковке.",
+      "AllergyShort": "Перед первым использованием проведите тест: нанесите на сгиб локтя, проверьте 24 ч.",
+      "StorageShort": "Хранить при +5…+25 °C, вдали от прямых солнечных лучей.",
+      "ContactShort": "@solid_simple_support",
+      "_SourcePreview": {
+        "orig_keys_count": 13
+      },
+      "description":"🤫 ТИШИНА: Спокойствие и умиротворение\n\nЦветочно-травяная композиция для создания атмосферы глубокого расслабления.\n\nКОМПОЗИЦИЯ:\nВерхние ноты - яркий, цитрусово-травяной лемонграсс, сердце аромата мягкая, цветочная лаванда, которая приносит ощущение спокойствия и гармонии. Идеальный баланс бодрости и релаксации.\n\n✨ ЧТО ВЫ ПОЧУВСТВУЕТЕ:\n• внутреннее спокойствие\n• ощущение свежести\n• глубокую расслабленность\n\n🔬 СОСТАВ:\nМасло ши-карите, соевый воск, кокосовый воск, эфирные масла лаванды высокогорной, лемонграсса.",
+      "Buttons": [
+        {
+          "Label": "Важная информация",
+          "Callback": "nav:info",
+          "Target": "S_INFO"
+        }
+      ]
+    },
+    {
+      "ProductID": "SP02",
+      "ProductTitle": "Твёрдые духи «Пробуждение»",
+      "ShortDesc": "✨ Заряд бодрости для продуктивного дня",
+      "Price": "1000",
+      "Volume": "20 гр",
+      "ImagePath": "photos/Твердые духи/ПРОБУЖДЕНИЕ.jpg",
+      "CategoryID": "solid_perfumes",
+      "Enabled": true,
+      "ShortLegalLine": "Полный состав и инструкция — на упаковке.",
+      "AllergyShort": "Перед первым использованием проведите тест: нанесите на сгиб локтя, проверьте 24 ч.",
+      "StorageShort": "Хранить при +5…+25 °C, вдали от прямых солнечных лучей.",
+      "ContactShort": "@solid_simple_support",
+      "_SourcePreview": {
+        "orig_keys_count": 13
+      },
+      "description":"🌅 ПРОБУЖДЕНИЕ: яркое и бодрое начало дня\n\nЦитрусово-хвойная композиция для бодрости и чувства тонуса.\n\nКОМПОЗИЦИЯ:\nВерхние ноты - бодрящий бергамот с сочной кислинкой и лёгкой горчинкой. Сердце аромата — прохлада и сладость алоэ вера с пряной смолисто-зелёной нотой розмарина.\n\n✨ ЧТО ВЫ ПОЧУВСТВУЕТЕ:\n• прилив сил и энергии\n• ощущение свежести, как после лёгкого утреннего душа\n• глубокую концентрацию и рабочий настрой\n\n🔬 СОСТАВ:\nМасло ши-карите, соевый воск, кокосовый воск, эфирные масла розмарина, алоэ вера, бергамота.",
+      "text": "⚗️ Твёрдые духи «Пробуждение» • ЭНЕРГИЯ — всплеск бодрости, мотивации и креативного потока.",
+      "short_info": "Цена: 1000₽ • Объём: 20 гр • Полный состав и инструкция — на упаковке.",
+      "Buttons": [
+        {
+          "Label": "Важная информация",
+          "Callback": "nav:info",
+          "Target": "S_INFO"
+        }
+      ],
+      "allergy_test": "Перед первым использованием проведите тест: нанесите на сгиб локтя, проверьте 24 ч."
+    },
+    {
+      "ProductID": "SP03",
+      "ProductTitle": "Твёрдые духи «Энергия»",
+      "ShortDesc": "🌿 Энергия наполняющая радостью",
+      "Price": "1000",
+      "Volume": "20 гр",
+      "ImagePath": "photos/Твердые духи/ЭНЕРГИЯ.jpg",
+      "CategoryID": "solid_perfumes",
+      "Enabled": true,
+      "ShortLegalLine": "Полный состав и инструкция — на упаковке.",
+      "AllergyShort": "Перед первым использованием проведите тест: нанесите на сгиб локтя, проверьте 24 ч.",
+      "StorageShort": "Хранить при +5…+25 °C, вдали от прямых солнечных лучей.",
+      "ContactShort": "@solid_simple_support",
+      "_SourcePreview": {
+        "orig_keys_count": 13
+      },
+      "description":"⚡ ЭНЕРГИЯ: радость и тепло\n\nПряно-цитрусовая композиция для активных действий и чувства уверенности.\n\nКОМПОЗИЦИЯ:\nВерхние ноты - солнечный взрыв апельсина, полный энергии. Сердце аромата - чувственный, иланг-иланг с тёплой, древесной пряной корицей. Базой звучит мягкая, сладковатая и уютная ваниль, которая связывает все аккорды.\n\n✨ ЧТО ВЫ ПОЧУВСТВУЕТЕ:\n• сладкое, томное тепло в теле\n• чувство радости\n• подъем сил и желание творить\n\n🔬 СОСТАВ:\nМасло ши-карите, кокосовый воск, соевый воск, эфирные масла иланг-иланга, апельсина, корицы, ванили.",
+      "Buttons": [
+        {
+          "Label": "Важная информация",
+          "Callback": "nav:info",
+          "Target": "S_INFO"
+        }
+      ]
+    },
+    {
+      "ProductID": "SP04",
+      "ProductTitle": "Твёрдые духи «Гармония»",
+      "ShortDesc": "🌲 Покой и медитация",
+      "Price": "1000",
+      "Volume": "20 гр",
+      "ImagePath": "photos/Твердые духи/ГАРМОНИЯ.jpg",
+      "CategoryID": "solid_perfumes",
+      "Enabled": true,
+      "ShortLegalLine": "Полный состав и инструкция — на упаковке.",
+      "AllergyShort": "Перед первым использованием проведите тест: нанесите на сгиб локтя, проверьте 24 ч.",
+      "StorageShort": "Хранить при +5…+25 °C, вдали от прямых солнечных лучей.",
+      "ContactShort": "@solid_simple_support",
+      "_SourcePreview": {
+        "orig_keys_count": 13
+      },
+      "description":"🕊️ ГАРМОНИЯ: Баланс и глубина\n\nЦветочно-древесная композиция для создания умиротворяющей атмосферы.\n\nКОМПОЗИЦИЯ:\nВерхние ноты чистого лимона с его прохладной свежестью. В сердце композиции бархатная, благородная роза с дымным, смолистым ладаном. База из глубокого, древесного умиротворяющего сандалового дерева.\n\n✨ ЧТО ВЫ ПОЧУВСТВУЕТЕ:\n• ощущение полной гармонии\n• глубокий внутренний покой и умиротворение\n• желание замедлится и насладится моментом\n\n🔬 СОСТАВ:\nМасло ши-карите, кокосовый воск, соевый воск, эфирные масла розы, сандала индийского, ладана, лимона.",
+      "Buttons": [
+        {
+          "Label": "Важная информация",
+          "Callback": "nav:info",
+          "Target": "S_INFO"
+        }
+      ]
+    },
+    {
+      "ProductID": "SP05",
+      "ProductTitle": "Твёрдые духи «Легкость»",
+      "ShortDesc": "🌿 Легкость нового дня",
+      "Price": "1000",
+      "Volume": "20 гр",
+      "ImagePath": "photos/Твердые духи/ЛЕГКОСТЬ.jpg",
+      "CategoryID": "solid_perfumes",
+      "Enabled": true,
+      "ShortLegalLine": "Полный состав и инструкция — на упаковке.",
+      "AllergyShort": "Перед первым использованием проведите тест: нанесите на сгиб локтя, проверьте 24 ч.",
+      "StorageShort": "Хранить при +5…+25 °C, вдали от прямых солнечных лучей.",
+      "ContactShort": "@solid_simple_support",
+      "_SourcePreview": {
+        "orig_keys_count": 13
+      },
+      "description":"🍃 ЛЕГКОСТЬ: Воздушная свежесть\n\nЦветочно-цитрусовая композиция с травяными акцентами для создания атмосферы невесомости.\n\nКОМПОЗИЦИЯ:\nВерхние ноты - свежесть лайма, наполненная лёгкостью. В сердце композиции раскрывается насыщенный, пьянящий жасмин с пряным, чуть холодноватым анисом и зелёной, пикантной свежестью базилика.\n\n✨ ЧТО ВЫ ПОЧУВСТВУЕТЕ:\n• пробуждение и лёгкость\n• прохладную, ясную концентрацию\n• освежающую бодрость\n\n🔬 СОСТАВ:\nМасло ши-карите, кокосовый воск, соевый воск, эфирные масла жасмина, лайма, аниса, базилика.",
+      "Buttons": [
+        {
+          "Label": "Важная информация",
+          "Callback": "nav:info",
+          "Target": "S_INFO"
+        }
+      ]
+    },
+    {
+      "ProductID": "SP06",
+      "ProductTitle": "Твёрдые духи «Эфир»",
+      "ShortDesc": "🍦 Аромат возвращения к себе",
+      "Price": "1000",
+      "Volume": "20 гр",
+      "ImagePath": "photos/Твердые духи/ЭФИР.jpg",
+      "CategoryID": "solid_perfumes",
+      "Enabled": true,
+      "ShortLegalLine": "Полный состав и инструкция — на упаковке.",
+      "AllergyShort": "Перед первым использованием проведите тест: нанесите на сгиб локтя, проверьте 24 ч.",
+      "StorageShort": "Хранить при +5…+25 °C, вдали от прямых солнечных лучей.",
+      "ContactShort": "@solid_simple_support",
+      "_SourcePreview": {
+        "orig_keys_count": 13
+      },
+      "description":"💫 ЭФИР: глубина и знание\n\nОсвежающе-древесная композиция для уверенности и возвращении к себе.\n\nКОМПОЗИЦИЯ:\nВерхние ноты яркая свежесть мяты, с нежной, лимонно-травяной мелисой. В сердце аромата раскрывается, древесно-землистая глубина пачули с тёплым, сладковатым шлейфом ванили.\n\n✨ ЧТО ВЫ ПОЧУВСТВУЕТЕ:\n• глубокое расслабление\n• успокоение нервной системы,\n• ощущение стабильности и защищённости\n\n🔬 СОСТАВ:\nМасло ши-карите, кокосовый воск, соевый воск, эфирные масла мяты садовой, мелиссы лимонной, пачули, ванили.",
+      "Buttons": [
+        {
+          "Label": "Важная информация",
+          "Callback": "nav:info",
+          "Target": "S_INFO"
+        }
+      ]
+    },
+    {
+      "ProductID": "SP07",
+      "ProductTitle": "Твёрдые духи «Сад»",
+      "ShortDesc": "🌿 Прогулка по утреннему саду",
+      "Price": "1000",
+      "Volume": "20 гр",
+      "ImagePath": "photos/Твердые духи/САД.jpg",
+      "CategoryID": "solid_perfumes",
+      "Enabled": true,
+      "ShortLegalLine": "Полный состав и инструкция — на упаковке.",
+      "AllergyShort": "Перед первым использованием проведите тест: нанесите на сгиб локтя, проверьте 24 ч.",
+      "StorageShort": "Хранить при +5…+25 °C, вдали от прямых солнечных лучей.",
+      "ContactShort": "@solid_simple_support",
+      "_SourcePreview": {
+        "orig_keys_count": 13
+      },
+      "description":"🌷 САД: Цветочная нежность\n\nТравяно-цветочная композиция с цитрусовыми акцентами для создания атмосферы цветущего сада.\n\nКОМПОЗИЦИЯ:\nВерхние ноты сочный, горьковато-сладкий грейпфрут. В сердце аромата раскрывается нежная, классическая роза, тёплый, пряный чабрец и тонкая нота, травянисто-медовой ромашки.\n\n✨ ЧТО ВЫ ПОЧУВСТВУЕТЕ:\n• душевное равновесие\n• чувство заботы о себе\n• лёгкость как в солнечное утро в саду\n\n🔬 СОСТАВ:\nМасло ши-карите, кокосовый воск, соевый воск, эфирные масла розы, ромашки, чабреца, грейпфрута.",
+      "Buttons": [
+        {
+          "Label": "Важная информация",
+          "Callback": "nav:info",
+          "Target": "S_INFO"
+        }
+      ]
+    },
+    {
+      "ProductID": "SP08",
+      "ProductTitle": "Твёрдые духи «Воздух»",
+      "ShortDesc": "🌿 Глубокий вдох на горной тропе",
+      "Price": "1000",
+      "Volume": "20 гр",
+      "ImagePath": "photos/Твердые духи/ВОЗДУХ.jpg",
+      "CategoryID": "solid_perfumes",
+      "Enabled": true,
+      "ShortLegalLine": "Полный состав и инструкция — на упаковке.",
+      "AllergyShort": "Перед первым использованием проведите тест: нанесите на сгиб локтя, проверьте 24 ч.",
+      "StorageShort": "Хранить при +5…+25 °C, вдали от прямых солнечных лучей.",
+      "ContactShort": "@solid_simple_support",
+      "_SourcePreview": {
+        "orig_keys_count": 13
+      },
+      "description":"💨 ВОЗДУХ: Горная свежесть\n\nОсвежающая композиция для создания атмосферы высокогорья.\n\nКОМПОЗИЦИЯ:\nВерхние ноты, цитрусовый дуэт сочного лайма и свежего бергамота, в сердце аромата свежесть и прохлада, эвкалипта с древесной, дымкой кипариса. Фенхель добавляет лакричную, сладковато-пряную глубину.\n\n✨ ЧТО ВЫ ПОЧУВСТВУЕТЕ:\n• мгновенное ощущение свободы дыхания\n• глубокую концентрацию и свежесть мыслей\n• чувство прохлады и чистоты\n\n🔬 СОСТАВ:\nМасло ши-карите, кокосовый воск, соевый воск, эфирные масла фенхеля, кипариса, бергамота, лайма, эвкалипта.",
+      "Buttons": [
+        {
+          "Label": "Важная информация",
+          "Callback": "nav:info",
+          "Target": "S_INFO"
+        }
+      ]
+    },
+    {
+      "ProductID": "SP08",
+      "ProductTitle": "Твёрдые духи «Воздух»",
+      "ShortDesc": "🌿 Как глубокий вдох на горной тропе: мысли становятся прозрачнее, пространство вокруг освобождается",
+      "Price": "1000",
+      "Volume": "20 гр",
+      "ImagePath": "photos/Твердые духи/ВОЗДУХ.jpg",
+      "CategoryID": "solid_perfumes",
+      "Enabled": true,
+      "ShortLegalLine": "Полный состав и инструкция — на упаковке.",
+      "AllergyShort": "Перед первым использованием проведите тест: нанесите на сгиб локтя, проверьте 24 ч.",
+      "StorageShort": "Хранить при +5…+25 °C, вдали от прямых солнечных лучей.",
+      "ContactShort": "@solid_simple_support",
+      "_SourcePreview": {
+        "orig_keys_count": 13
+      },
+      "description":"💨 ВОЗДУХ: Горная свежесть\n\nОсвежающе-древесная композиция для создания атмосферы высокогорья.\n\n🔬 СОСТАВ:\n• Эфирные масла: эвкалипта, бергамота, лайма, кипариса, фенхеля\n\n🔬 НАУЧНЫЙ ФАКТ: Исследования показывают, что 1,8-цинеол в эвкалипте создает характерную камфорную свежесть, лимонен в бергамоте обеспечивает яркую цитрусовость, сесквитерпеновые спирты в кипарисе придают древесную устойчивость, а анетол в фенхеле добавляет сладковатую пряность, формируя комплексный горный профиль.\n\n✨ ЧТО ВЫ ПОЧУВСТВУЕТЕ:\n• Камфорную свежесть\n• Яркую цитрусовость\n• Древесную устойчивость\n\n🌿 КОМПОЗИЦИЯ:\n🍃 Эвкалипт → камфорная свежесть\n🍋 Бергамот → яркая цитрусовость\n🌲 Кипарис → древесная устойчивость.",
+
+      "Buttons": [
+        {
+          "Label": "Важная информация",
+          "Callback": "nav:info",
+          "Target": "S_INFO"
+        }
+      ]
+    },
+    {
+      "ProductID": "D01",
+      "ProductTitle": "Твердый шампунь «Роза-Грейпфрут»",
+      "ShortDesc": "🌿 Как утренняя роса на лепестках розы: пробуждение и нежная защита для чувствительных  волос",
+      "Price": "1100",
+      "Volume": "90 гр",
+      "ImagePath": "photos/ТВЕРДЫЙ ШАМПУНЬ/Роза-Грейпфрут.jpg",
+      "CategoryID": "hair",
+      "Enabled": true,
+      "ShortLegalLine": "Полный состав и инструкция — на упаковке.",
+      "AllergyShort": "",
+      "StorageShort": "Хранить при +5…+25 °C, вдали от прямых солнечных лучей.",
+      "ContactShort": "@solid_simple_support",
+      "_SourcePreview": {
+        "orig_keys_count": 13
+      },
+      "description": "🌹Как утренняя роса на лепестках розы: пробуждение и нежная защита для чувствительных  волос\n\n🔬 НАУЧНЫЙ ФАКТ: Грейпфрут содержит лимонен, который мягко очищает волосы без агрессивного воздействия. Роза богата фенилэтиловым спиртом, способствующим укреплению волосяных фолликулов.\n\n💫 ОЩУЩЕНИЕ: \"Мое пробуждение для волос. Каждое умывание начинается с аромата цветущего сада и цитрусовой свежести.\"\n\nЧТО ВЫ ПОЛУЧИТЕ:\n🌹 Объем и легкость, как после спа-процедур\n🍊 Блеск и шелковистость без утяжеления\n💫 Чистоту без нарушения pH-баланса\n\nКОМПОЗИЦИЯ:\n🌹 Роза → укрепление и нежность\n🍊 Грейпфрут → мягкое очищение\n🌿 Натуральные ПАВ → бережная пена\n⭐ Витаминный комплекс → питание по всей длине",
+      "Buttons": [
+        {
+          "Label": "Важная информация",
+          "Callback": "nav:info",
+          "Target": "S_INFO"
+        }
+      ]
+    },
+    {
+      "ProductID": "D02",
+      "ProductTitle": "Твердый шампунь «Зеленый чай»",
+      "ShortDesc": "🌿 Чайная церемония для волос: глубокое очищение и тонизирование",
+      "Price": "1100",
+      "Volume": "90 гр",
+      "ImagePath": "photos/ТВЕРДЫЙ ШАМПУНЬ/Зеленый чай.jpg",
+      "CategoryID": "hair",
+      "Enabled": true,
+      "ShortLegalLine": "Полный состав и инструкция — на упаковке.",
+      "AllergyShort": "",
+      "StorageShort": "Хранить при +5…+25 °C, вдали от прямых солнечных лучей.",
+      "ContactShort": "@solid_simple_support",
+      "_SourcePreview": {
+        "orig_keys_count": 13
+      },
+      "description": "🍵Чайная церемония для волос: глубокое очищение и тонизирование.\n\n🔬 НАУЧНЫЙ ФАКТ: Матча содержит EGCG-катехины, которые являются мощными антиоксидантами и помогают защитить волосы от environmental stress.Розмарин содержит цинеол, который стимулирует микроциркуляцию кожи головы и способствует укреплению волосяных луковиц.\n\nЧТО ВЫ ПОЛУЧИТЕ:\n🍵 Глубокое очищение без пересушивания\n🌿 Свежесть и тонус кожи головы\n💚 Активный рост и укрепление волос\n\nКОМПОЗИЦИЯ:\n🍵 Маття чай → антиоксидантная защита\n🌿Розмарин → укрепление \n🌱 Натуральные ПАВ → мягкое очищение\n💧 Увлажняющий комплекс → комфорт кожи головы",
+      "Buttons": [
+        {
+          "Label": "Важная информация",
+          "Callback": "nav:info",
+          "Target": "S_INFO"
+        }
+      ]
+    },
+	{
+	  "ProductID": "D03",
+	  "ProductTitle": "Твердый шампунь «Лаванда-Смородина»",
+	  "ShortDesc": "💜 Сила цветов , востановление от корней до кончиков",
+	  "Price": "1100",
+	  "Volume": "90 гр",
+	  "ImagePath": "photos/ТВЕРДЫЙ ШАМПУНЬ/Лаванда-Смородина.jpg",
+	  "CategoryID": "hair",
+	  "Enabled": true,
+	  "ShortLegalLine": "Полный состав и инструкция — на упаковке.",
+	  "AllergyShort": "",
+	  "StorageShort": "Хранить при +5…+25 °C, вдали от прямых солнечных лучей.",
+	  "ContactShort": "@solid_simple_support",
+	  "_SourcePreview": {
+		"orig_keys_count": 13
+	  },
+	  "description": "🌿 Сила цветов, восстановление от корней до кончиков.\n\n🔬 НАУЧНЫЙ ФАКТ: Масло лаванды защищает волосы от негативного воздействия окружающей среды и повреждений.\n\nЧТО ВЫ ПОЛУЧИТЕ:\n🌿 Укрепление волосяных фолликулов\n💪 баланс кожи головы\n🌀 блеск и мягкость волос\n\nКОМПОЗИЦИЯ:\n🌿 Лаванда → защита и баланс\n🌲 Лемонграсс → укрепление и свежесть\n💦 Увлажняющий комплекс → эластичность\n🌟 Экстракт календулы → восстановление структуры",
+	  "Buttons": [
+		{
+		  "Label": "Важная информация",
+		  "Callback": "nav:info",
+		  "Target": "S_INFO"
+		}
+	  ]
+	},
+    {
+      "ProductID": "D04",
+      "ProductTitle": "Твердый кондиционер «Облепиха»",
+      "ShortDesc": "🌿 Как летнее солнце для ваших волос: тепло, питание и жизненная сила",
+      "Price": "1200",
+      "Volume": "80 гр",
+      "ImagePath": "photos/ТВЕРДЫЙ КОНДИЦИОНЕР/ОБЛЕПИХА.jpg",
+      "CategoryID": "hair",
+      "Enabled": true,
+      "ShortLegalLine": "Полный состав и инструкция — на упаковке.",
+      "AllergyShort": "",
+      "StorageShort": "Хранить при +5…+25 °C, вдали от прямых солнечных лучей.",
+      "ContactShort": "@solid_simple_support",
+      "_SourcePreview": {
+        "orig_keys_count": 13
+      },
+      "description": "🟠Как летнее солнце для ваших волос: тепло, питание и жизненная сила\n\n🔬 НАУЧНЫЙ ФАКТ: Облепиха богата омега-7 кислотами и каротиноидами, которые глубоко питают волосы, восстанавливают повреждения и дарят естественный блеск.\n\nЧТО ВЫ ПОЛУЧИТЕ:\n🟠 Глубокое восстановление структуры\n✨ Блеск и послушность без утяжеления\n🌞 Защиту от термических воздействий\n\nКОМПОЗИЦИЯ:\n🟠 Облепиховое масло → интенсивное питание\n🌼 Ромашка → нежное успокоение\n🌻 Календула → укрепление\n🌰 Аргановое масло → блеск и защита\n🥑 Масло авокадо → эластичность\n🌴 Масло макадамии → легкость\n🎋 Масло ши → восстановление",
+      "Buttons": [
+        {
+          "Label": "Важная информация",
+          "Callback": "nav:info",
+          "Target": "S_INFO"
+        }
+      ]
+    },
+	{
+	  "ProductID": "SR01",
+	  "ProductTitle": "Сыворотка «Авокадо»",
+	  "ShortDesc": "🌿 Глубокое увлажнение и мгновенное преображение",
+	  "Price": "1100",
+	  "Volume": "10 мл",
+	  "ImagePath": "photos/Сыворотка для лица/СЫВОРОТКА ДЛЯ ЛИЦА АВОКАДО.jpg",
+	  "CategoryID": "body_care",
+	  "Enabled": true,
+	  "ShortLegalLine": "Полный состав и инструкция — на упаковке.",
+	  "AllergyShort": "Перед первым использованием проведите тест: нанесите на сгиб локтя, проверьте 24 ч.",
+	  "StorageShort": "Хранить при +5…+25 °C, вдали от прямых солнечных лучей.",
+	  "ContactShort": "@solid_simple_support",
+	  "_SourcePreview": {
+		"orig_keys_count": 13
+	  },
+	  "description": "🥑 Глубокое увлажнение и мгновенное преображение.\n\n🔬 НАУЧНЫЙ ФАКТ: Масло авокадо с высоким содержанием олеиновой и пальмитиновой кислот глубоко проникает в липидный барьер и поддерживает интенсивное увлажнение до 24 часов.\n\nЧТО ВЫ ПОЛУЧИТЕ:\n🥑 Мгновенное увлажнение и упругость\n✨ Выравнивание тона и текстуры кожи\n🌿 Сокращение воспалений и покраснений\n\nКОМПОЗИЦИЯ:\n🟠 Облепиховое масло → антиоксидантная защита\n⭐ Витамин E → регенерация и защита\n🌼 Календула → противовоспалительный эффект\n🌿 Шалфей мускатный → стабилизация работы желез\n🌱 Чайное дерево → антибактериальное действие",
+	  "Buttons": [
+		{
+		  "Label": "Важная информация",
+		  "Callback": "nav:info",
+		  "Target": "S_INFO"
+		}
+	  ]
+	},
+    {
+      "ProductID": "MO01",
+      "ProductTitle": "Массажное масло «Sun»",
+      "ShortDesc": "🌅 Как летнее солнце для вашего тела: тепло, расслабление и тонус",
+      "Price": "1200",
+      "Volume": "50 гр",
+      "ImagePath": "photos/Массажное масло/МАССАЖНОЕ МАСЛО СОЛНЦЕ.jpg",
+      "CategoryID": "body_care",
+      "Enabled": true,
+      "ShortLegalLine": "Полный состав и инструкция — на упаковке.",
+      "AllergyShort": "Перед первым использованием проведите тест: нанесите на сгиб локтя, проверьте 24 ч.",
+      "StorageShort": "Хранить при +5…+25 °C, вдали от прямых солнечных лучей.",
+      "ContactShort": "@solid_simple_support",
+      "_SourcePreview": {
+        "orig_keys_count": 13
+      },
+      "description": "☀️Как летнее солнце для вашего тела: тепло, расслабление и тонус\n\n🔬 НАУЧНЫЙ ФАКТ: Корица содержит циннамальдегид, который активирует терморецепторы кожи, создавая согревающий эффект. Цитрусовые масла стимулируют микроциркуляцию и лимфодренаж.\n\nЧТО ВЫ ПОЧУВСТВУЕТЕ:\n☀️ Приятное согревание без жжения\n🌀 Глубокое расслабление мышц\n💫 Улучшение тонуса и упругости кожи\n\nКОМПОЗИЦИЯ:\n🌰 Масло миндаля → базовое увлажнение\n🟠 Облепиховое масло → восстановление\n🍑 Абрикосовое масло → смягчение\n🥑 Масло авокадо → питание\n🍊 Апельсин → тонизирование\n🌿 Корица → согревающий эффект\n🌸 Иланг-иланг → релаксация\n🍦 Ваниль → ощущение комфорта",
+      "Buttons": [
+        {
+          "Label": "Важная информация",
+          "Callback": "nav:info",
+          "Target": "S_INFO"
+        }
+      ]
+    },
+    {
+      "ProductID": "BUT01",
+      "ProductTitle": "Баттер «Классический»",
+      "ShortDesc": "🛁 Шелковое покрывало для вашей кожи: роскошная текстура и интенсивное питание",
+      "Price": "800",
+      "Volume": "50 гр",
+      "ImagePath": "photos/БАТТЕР ДЛЯ ТЕЛА/БАТТЕР ДЛЯ ТЕЛА СОЛНЦЕ.jpg",
+      "CategoryID": "body_care",
+      "Enabled": true,
+      "ShortLegalLine": "Полный состав и инструкция — на упаковке.",
+      "AllergyShort": "Перед первым использованием проведите тест: нанесите на сгиб локтя, проверьте 24 ч.",
+      "StorageShort": "Хранить при +5…+25 °C, вдали от прямых солнечных лучей.",
+      "ContactShort": "@solid_simple_support",
+      "_SourcePreview": {
+        "orig_keys_count": 13
+      },
+      "description": "⚗️ Баттер «Классический» • ✨ Питательное увлажнение: шелковистость + комфорт. Натуральная формула",
+      "text": "⚗️ Баттер «Классический» • ✨ Питательное увлажнение: шелковистость + комфорт. Натуральная формула",
+      "short_info": "Цена: 520 • Объём: 50 гр • Полный состав и инструкция — на упаковке.",
+      "Buttons": [
+        {
+          "Label": "Важная информация",
+          "Callback": "nav:info",
+          "Target": "S_INFO"
+        }
+      ],
+      "allergy_test": "Перед первым использованием проведите тест: нанесите на сгиб локтя, проверьте 24 ч."
+    },
+    {
+      "ProductID": "BUT02",
+      "ProductTitle": "Баттер «Лаванда»",
+      "ShortDesc": "🌿 Масло ши, Миндальное масло, Масло какао - вдохновляет приятное настроение.",
+      "Price": "800",
+      "Volume": "50 гр",
+      "ImagePath": "photos/БАТТЕР ДЛЯ ТЕЛА/БАТТЕР ДЛЯ ТЕЛА СОЛНЦЕ.jpg",
+      "CategoryID": "body_care",
+      "Enabled": true,
+      "ShortLegalLine": "Полный состав и инструкция — на упаковке.",
+      "AllergyShort": "Перед первым использованием проведите тест: нанесите на сгиб локтя, проверьте 24 ч.",
+      "StorageShort": "Хранить при +5…+25 °C, вдали от прямых солнечных лучей.",
+      "ContactShort": "@solid_simple_support",
+      "_SourcePreview": {
+        "orig_keys_count": 13
+      },
+      "description": "✨Как шелковое покрывало для вашей кожи: роскошная текстура и интенсивное питание\n\n🔬 НАУЧНЫЙ ФАКТ: Масло ши содержит триглицериды и сложные эфиры, которые глубоко проникают в кожу, восстанавливая липидный барьер и обеспечивая длительное увлажнение.\n\nЧТО ВЫ ПОЧУВСТВУЕТЕ:\n✨ Роскошную шелковистость кожи\n💧 Интенсивное увлажнение на 24 часа\n🌿 Легкость и комфорт без липкости\n\nКОМПОЗИЦИЯ:\n🌰 Миндальное масло → смягчение\n🍫 Масло какао → упругость\n🥥 Кокосовое масло → увлажнение\n🍇 Масло виноградной косточки → тонизирование\n⭐ Витамин E → антиоксидантная защита\n🍋 Лемонграсс → свежесть",
+      "Buttons": [
+        {
+          "Label": "Важная информация",
+          "Callback": "nav:info",
+          "Target": "S_INFO"
+        }
+      ]
+    },
+    {
+      "ProductID": "BUT03",
+      "ProductTitle": "Баттер «Цитрус»",
+      "ShortDesc": "🌿 Масло ши, Миндальное масло, Масло какао - приятное настроение, как маленький подарок.",
+      "Price": "800",
+      "Volume": "50 гр",
+      "ImagePath": "photos/БАТТЕР ДЛЯ ТЕЛА/БАТТЕР ДЛЯ ТЕЛА СОЛНЦЕ.jpg",
+      "CategoryID": "body_care",
+      "Enabled": true,
+      "ShortLegalLine": "Полный состав и инструкция — на упаковке.",
+      "AllergyShort": "Перед первым использованием проведите тест: нанесите на сгиб локтя, проверьте 24 ч.",
+      "StorageShort": "Хранить при +5…+25 °C, вдали от прямых солнечных лучей.",
+      "ContactShort": "@solid_simple_support",
+      "_SourcePreview": {
+        "orig_keys_count": 13
+      },
+      "description": "✨Как шелковое покрывало для вашей кожи: роскошная текстура и интенсивное питание\n\n🔬 НАУЧНЫЙ ФАКТ: Масло ши содержит триглицериды и сложные эфиры, которые глубоко проникают в кожу, восстанавливая липидный барьер и обеспечивая длительное увлажнение.\n\nЧТО ВЫ ПОЧУВСТВУЕТЕ:\n✨ Роскошную шелковистость кожи\n💧 Интенсивное увлажнение на 24 часа\n🌿 Легкость и комфорт без липкости\n\nКОМПОЗИЦИЯ:\n🌰 Масло ши → интенсивное питание\n🥥 Кокосовое масло → увлажнение\n🍇 Масло виноградной косточки → тонизирование\n⭐ Витамин E → антиоксидантная защита\n🌿 Лаванда → релаксация\n🍊 Мандарин → тонус\n🍋 Лемонграсс → свежесть",
+      "Buttons": [
+        {
+          "Label": "Важная информация",
+          "Callback": "nav:info",
+          "Target": "S_INFO"
+        }
+      ]
+    },
+    {
+      "ProductID": "BUT04",
+      "ProductTitle": "Баттер «Шиповник»",
+      "ShortDesc": "🌹 Шиповник, Масло ши, Кокос - интенсивное питание и восстановление кожи.",
+      "Price": "800",
+      "Volume": "50 гр",
+      "ImagePath": "photos/БАТТЕР ДЛЯ ТЕЛА/БАТТЕР ДЛЯ ТЕЛА СОЛНЦЕ.jpg",
+      "CategoryID": "body_care",
+      "Enabled": true,
+      "ShortLegalLine": "Полный состав и инструкция — на упаковке.",
+      "AllergyShort": "Перед первым использованием проведите тест: нанесите на сгиб локтя, проверьте 24 ч.",
+      "StorageShort": "Хранить при +5…+25 °C, вдали от прямых солнечных лучей.",
+      "ContactShort": "@solid_simple_support",
+      "_SourcePreview": {
+        "orig_keys_count": 13
+      },
+      "description": "🌹 Бархатное питание: как забота о себе в каждой клеточке, дарящее коже комфорт и шелковистость.\n\n✨ ЧТО ВЫ ПОЧУВСТВУЕТЕ:\n• Мгновенное ощущение питания и увлажнения\n• Бархатистую и ухоженную кожу\n• Приятный комфорт без тяжести\n\n🌿 КОМПОЗИЦИЯ И СВОЙСТВА:\n• **Шиповник** — известен в косметике своими ухаживающими свойствами\n• **Масло ши** — обладает отличными смягчающими качествами\n• **Кокосовое масло** — способствует сохранению влаги и дарит приятную мягкость\n\n*Эффект достигается при регулярном использовании. Для поддержания результата рекомендуем наносить на увлажненную кожу.*",
+      "text": "⚗️ Баттер «Шиповник» • ✨ Питательное увлажнение: шелковистость + комфорт. Натуральная формула",
+      "short_info": "Цена: 520 • Объём: 50 гр • Полный состав и инструкция — на упаковке.",
+      "Buttons": [
+        {
+          "Label": "Важная информация",
+          "Callback": "nav:info",
+          "Target": "S_INFO"
+        }
+      ],
+      "allergy_test": "Перед первым использованием проведите тест: нанесите на сгиб локтя, проверьте 24 ч."
+    },
+    {
+      "ProductID": "LB01",
+      "ProductTitle": "Бальзам «Мята»",
+      "ShortDesc": "🌿 Прохладный поцелуй  для ваших губ: свежесть, увлажнение и комфорт",
+      "Price": "650",
+      "Volume": "10 гр",
+      "ImagePath": "photos/БАЛЬЗАМ ДЛЯ ГУБ/МЯТА.jpg",
+      "CategoryID": "body_care",
+      "Enabled": true,
+      "ShortLegalLine": "Полный состав и инструкция — на упаковке.",
+      "AllergyShort": "Перед первым использованием проведите тест: нанесите на сгиб локтя, проверьте 24 ч.",
+      "StorageShort": "Хранить при +5…+25 °C, вдали от прямых солнечных лучей.",
+      "ContactShort": "@solid_simple_support",
+      "_SourcePreview": {
+        "orig_keys_count": 13
+      },
+      "description": "❄️ Свежесть арктического бриза: мгновенное ощущение чистоты и бодрости с нежным уходом.\n\n✨ ЧТО ВЫ ПОЧУВСТВУЕТЕ:\n• Приятное освежающее ощущение\n• Мягкость и ухоженность губ\n• Чувство комфорта и свежести\n\n🌿 КОМПОЗИЦИЯ И СВОЙСТВА:\n• **Мята** — дарит характерное свежее ощущение\n• **Масло ши** — обладает смягчающими свойствами\n• **Кокосовое масло** — способствует увлажнению и создает защитный барьер\n\n*Рекомендуется для ежедневного ухода и поддержания комфортного состояния кожи губ.*",
+      "text": "⚗️ Бальзам «Мята» • ❄️ Освежающая забота: мгновенное охлаждение + увлажнение. С маслом ши и кокосом",
+      "short_info": "Цена: 280 • Объём: 10 гр • Полный состав и инструкция — на упаковке.",
+      "Buttons": [
+        {
+          "Label": "Важная информация",
+          "Callback": "nav:info",
+          "Target": "S_INFO"
+        }
+      ],
+      "allergy_test": "Перед первым использованием проведите тест: нанесите на сгиб локтя, проверьте 24 ч."
+    },
+    {
+      "ProductID": "LB02",
+      "ProductTitle": "Бальзам «Шоколад»",
+      "ShortDesc": "🍫 Как горячий шоколад зимним вечером: тепло, уют и забота для ваших губ",
+      "Price": "650",
+      "Volume": "10 гр",
+      "ImagePath": "photos/БАЛЬЗАМ ДЛЯ ГУБ/ШОКОЛАД.jpg",
+      "CategoryID": "body_care",
+      "Enabled": true,
+      "ShortLegalLine": "Полный состав и инструкция — на упаковке.",
+      "AllergyShort": "Перед первым использованием проведите тест: нанесите на сгиб локтя, проверьте 24 ч.",
+      "StorageShort": "Хранить при +5…+25 °C, вдали от прямых солнечных лучей.",
+      "ContactShort": "@solid_simple_support",
+      "_SourcePreview": {
+        "orig_keys_count": 13
+      },
+      "description": "🍫 Нежный десерт для губ: насыщенный уход с тонким ароматом, дарящий ощущение бархатной мягкости.\n\n✨ ЧТО ВЫ ПОЧУВСТВУЕТЕ:\n• Питание и ухоженность кожи губ\n• Тонкий шоколадно-апельсиновый аромат\n• Бархатистую мягкость и комфорт\n\n🌿 КОМПОЗИЦИЯ И СВОЙСТВА:\n• **Какао** — традиционно используется в косметике для питания\n• **Апельсин** — дарит легкий свежий аромат\n• **Масло ши** — обладает смягчающими и защитными свойствами\n\n*Идеален для ежедневного использования, особенно в период повышенной сухости.*",
+      "text": "⚗️ Бальзам «Шоколад» • 🍫 Питательное наслаждение: бархатная мягкость + защита. С маслом какао и апельсином",
+      "short_info": "Цена: 280 • Объём: 10 гр • Полный состав и инструкция — на упаковке.",
+      "Buttons": [
+        {
+          "Label": "Важная информация",
+          "Callback": "nav:info",
+          "Target": "S_INFO"
+        }
+      ],
+      "allergy_test": "Перед первым использованием проведите тест: нанесите на сгиб локтя, проверьте 24 ч."
+    },
+    {
+      "ProductID": "LB03",
+      "ProductTitle": "Бальзам «Универсальный»",
+      "ShortDesc": "🌟 Надежный друг: всегда рядом, когда нужна поддержка и забота",
+      "Price": "650",
+      "Volume": "10 гр",
+      "ImagePath": "photos/БАЛЬЗАМ ДЛЯ ГУБ/Универсальный.jpg",
+      "CategoryID": "body_care",
+      "Enabled": true,
+      "ShortLegalLine": "Полный состав и инструкция — на упаковке.",
+      "AllergyShort": "Перед первым использованием проведите тест: нанесите на сгиб локтя, проверьте 24 ч.",
+      "StorageShort": "Хранить при +5…+25 °C, вдали от прямых солнечных лучей.",
+      "ContactShort": "@solid_simple_support",
+      "_SourcePreview": {
+        "orig_keys_count": 13
+      },
+      "description": "💫 Простота и надежность: нежный уход, который подходит для ежедневного поддержания комфорта кожи губ.\n\n✨ ЧТО ВЫ ПОЧУВСТВУЕТЕ:\n• Мгновенное смягчение и увлажнение\n• Нежную защиту и уход\n• Комфорт в течение всего дня\n\n🌿 КОМПОЗИЦИЯ И СВОЙСТВА:\n• **Масло ши** — обладает смягчающими свойствами\n• **Кокосовое масло** — способствует сохранению влаги\n• **Миндальное масло** — известно своими ухаживающими качествами\n\n*Гипоаллергенная формула разработана для чувствительной кожи и подходит для всей семьи.*",
+      "text": "⚗️ Бальзам «Универсальный» • 🌟 Базовая забота: смягчение + увлажнение. Гипоаллергенный для всей семьи",
+      "short_info": "Цена: 280 • Объём: 10 гр • Полный состав и инструкция — на упаковке.",
+      "Buttons": [
+        {
+          "Label": "Важная информация",
+          "Callback": "nav:info",
+          "Target": "S_INFO"
+        }
+      ],
+      "allergy_test": "Перед первым использованием проведите тест: нанесите на сгиб локтя, проверьте 24 ч."
+    },
+	{
+	  "ProductID": "BB01",
+	  "ProductTitle": "Бомбочка «Солнце»",
+	  "ShortDesc": "🌿 Утренние лучи солнца в вашей ванне: бодрость, тепло и позитивная энергия",
+	  "Price": "400",
+	  "Volume": "90 гр",
+	  "ImagePath": "photos/БОМБОЧКА ДЛЯ ВАННЫ/Солнце.jpg",
+	  "CategoryID": "body_care",
+	  "Enabled": true,
+	  "ShortLegalLine": "Полный состав и инструкция — на упаковке.",
+	  "AllergyShort": "",
+	  "StorageShort": "Хранить при +5…+25 °C, вдали от прямых солнечных лучей.",
+	  "ContactShort": "@solid_simple_support",
+	  "_SourcePreview": {
+		"orig_keys_count": 13
+	  },
+	  "description": "☀️ Как утренние лучи солнца в вашей ванне: бодрость, тепло и позитивная энергия.\n\n🔬 НАУЧНЫЙ ФАКТ: апельсин содержит лимонен — компонент цитрусовых, связанный с определёнными эффектами; корица стимулирует кровообращение.\n\nЧТО ВЫ ПОЧУВСТВУЕТЕ:\n☀️ Прилив энергии и бодрости\n🌈 Улучшение настроения и тонуса\n🌞 Тепло и комфорт во всём теле\n\nКОМПОЗИЦИЯ:\n🍊 Апельсин → тонизирование\n🌸 Нероли → гармония и радость\n🌿 Корица → согревание и стимуляция\n🌷 Розовая глина → мягкое очищение",
+	  "Buttons": [
+		{
+		  "Label": "Важная информация",
+		  "Callback": "nav:info",
+		  "Target": "S_INFO"
+		}
+	  ]
+	},
+	{
+	  "ProductID": "BB02",
+	  "ProductTitle": "Бомбочка «Луна»",
+	  "ShortDesc": "🌿 Лунный свет на поверхности воды: спокойствие, гармония и глубокое расслабление",
+	  "Price": "400",
+	  "Volume": "90 гр",
+	  "ImagePath": "photos/БОМБОЧКА ДЛЯ ВАННЫ/Луна.jpg",
+	  "CategoryID": "body_care",
+	  "Enabled": true,
+	  "ShortLegalLine": "Полный состав и инструкция — на упаковке.",
+	  "AllergyShort": "",
+	  "StorageShort": "Хранить при +5…+25 °C, вдали от прямых солнечных лучей.",
+	  "ContactShort": "@solid_simple_support",
+	  "_SourcePreview": {
+		"orig_keys_count": 13
+	  },
+	  "description": "🌙 Как лунная дорожка на поверхности озера: таинственность, спокойствие и глубина.\n\n🔬 НАУЧНЫЙ ФАКТ: лаванда содержит бензилацетат и индол, которые в исследованиях связывают с мягкими седативными эффектами и способствуют релаксации и снижению тревожности.\n\nЧТО ВЫ ПОЧУВСТВУЕТЕ:\n🌌 Таинственность и спокойствие ночи\n🚀 Ощущение полёта\n💆 Глубокую релаксацию и умиротворение\n\nКОМПОЗИЦИЯ:\n🌿 Лаванда → ночная тайна\n🌙 Лемонграсс → холодное сияние",
+	  "Buttons": [
+		{
+		  "Label": "Важная информация",
+		  "Callback": "nav:info",
+		  "Target": "S_INFO"
+		}
+	  ]
+	},
+	{
+	  "ProductID": "BB03",
+	  "ProductTitle": "Бомбочка «Тайга»",
+	  "ShortDesc": "🌲 Прогулка по хвойному лесу: чистота, свежесть и единение с природой",
+	  "Price": "400",
+	  "Volume": "90 гр",
+	  "ImagePath": "photos/БОМБОЧКА ДЛЯ ВАННЫ/Тайга.jpg",
+	  "CategoryID": "body_care",
+	  "Enabled": true,
+	  "ShortLegalLine": "Полный состав и инструкция — на упаковке.",
+	  "AllergyShort": "",
+	  "StorageShort": "Хранить при +5…+25 °C, вдали от прямых солнечных лучей.",
+	  "ContactShort": "@solid_simple_support",
+	  "_SourcePreview": {
+		"orig_keys_count": 13
+	  },
+	  "description": "🌲 Как прогулка по хвойному лесу: чистота, свежесть и единение с природой.\n\n🔬 НАУЧНЫЙ ФАКТ: хвойные масла содержат пинены, которые обладают противовоспалительными свойствами и помогают очистить дыхательные пути; эфирные масла могут способствовать ментальной ясности.\n\n💫 ОЩУЩЕНИЕ: «Мой выезд на природу, не выходя из дома. Дышу полной грудью и чувствую, как силы возвращаются.»\n\nЧТО ВЫ ПОЧУВСТВУЕТЕ:\n🌲 Свежесть северного леса\n💨 Очищение дыхания и ясность мыслей\n🌿 Прилив природной энергии\n\nКОМПОЗИЦИЯ:\n🌲 Хвойные масла → очищение и свежесть\n🌿 Натуральные эфирные масла → ароматерапия\n🌊 Средиземноморская соль → минерализация\n💧 Органические масла → уход за кожей",
+	  "Buttons": [
+		{
+		  "Label": "Важная информация",
+		  "Callback": "nav:info",
+		  "Target": "S_INFO"
+		}
+	  ]
+	},
+    {
+      "ProductID": "BS01",
+      "ProductTitle": "Соль для ванны «Лаванда»",
+      "ShortDesc": "💜 Как шепот ветра в лавандовых полях: умиротворение, гармония и глубокий отдых",
+      "Price": "1100",
+      "Volume": "450 гр",
+      "ImagePath": "photos/СОЛЬ ДЛЯ ВАННЫ/ЛАВАНДА.jpg",
+      "CategoryID": "body_care",
+      "Enabled": true,
+      "ShortLegalLine": "Полный состав и инструкция — на упаковке.",
+      "AllergyShort": "",
+      "StorageShort": "Хранить при +5…+25 °C, вдали от прямых солнечных лучей.",
+      "ContactShort": "@solid_simple_support",
+      "_SourcePreview": {
+        "orig_keys_count": 13
+      },
+      "description": "Шепот ветра в лавандовых полях: умиротворение, гармония и глубокий отдых\n\n🔬 НАУЧНЫЙ ФАКТ: Лаванда содержит линалоол (25-38%), который в исследованиях демонстрирует седативные свойства. Лемонграсс через цитраль помогает снять мышечные спазмы и напряжение.\n\nЧТО ВЫ ПОЧУВСТВУЕТЕ:\n💤 Подготовку к спокойному сну\n🌿 Снятие мышечного напряжения\n✨ Увлажнение и питание кожи\n\nКОМПОЗИЦИЯ:\n🟣 Лаванда → седативный эффект\n🍋 Лемонграсс → мышечная релаксация\n🌊 Средиземноморская соль → детокс\n💖 Гималайская соль → минерализация\n⚪ Магниевая соль → противовоспалительный эффект\n🌰 Миндальное масло → смягчение\n🥥 Кокосовое масло → увлажнение\n🌿 Натуральные травы → ароматерапия",
+      "Buttons": [
+        {
+          "Label": "Важная информация",
+          "Callback": "nav:info",
+          "Target": "S_INFO"
+        }
+      ]
+    },
+    {
+      "ProductID": "SACH01",
+      "ProductTitle": "Саше «Париж»",
+      "ShortDesc": "🏙️ Как романтическая прогулка  по вечерним парижским улицам ",
+      "Price": "900",
+      "Volume": "50 гр",
+      "ImagePath": "photos/САШЭ/ПАРИЖ.jpg",
+      "CategoryID": "sachets",
+      "Enabled": true,
+      "ShortLegalLine": "Состав и инструкция — на упаковке.",
+      "AllergyShort": "",
+      "StorageShort": " Хранить при +5…+25°C, без солнца.",
+      "ContactShort": "@solid_simple_support",
+      "_SourcePreview": {
+        "orig_keys_count": 13
+      },
+      "description": "🏙️ ПАРИЖ — атмосфера романтического вечера . \n\nКак романтическая прогулка  по вечерним парижским улицам  \n\n🔬 НАУЧНЫЙ ФАКТ: Грейпфрут содержит нооткатон, который могут взаимодействовать с тепловыми сенсорными путями рецепторы, способствует ощущению бодрости и свежести. \n\nЧТО ВЫ ПОЧУВСТВУЕТЕ:\n🍇 Свежесть, как от прохладного сока грейпфрута\n🌹 Романтичный настрой и легкую эйфорию\n💼 Прилив творческих сил и уверенности\n\nКОМПОЗИЦИЯ:\n🍊 Грейпфрут → энергия и бодрость\n🫐 Смородина → игривая глубина\n🌹 Пионовидная роза → нежная элегантность\n🌿 Жасмин → томная чувственность\n🍯 Османтус → сладковатый шарм\n❤️ Красный мускус → объем и стойкость\n\nАрома-саше для сопровождения вашего состояния. Не является лекарственным средством.",
+      "Buttons": [
+        {
+          "Label": "Важная информация",
+          "Callback": "nav:info",
+          "Target": "S_INFO"
+        }
+      ]
+    },
+    {
+      "ProductID": "SACH02",
+      "ProductTitle": "Саше «Дом»",
+      "ShortDesc": "🏠 Возвращение в детство: знакомые ароматы, которые дарят чувство абсолютной защищенности",
+      "Price": "900",
+      "Volume": "50 гр",
+      "ImagePath": "photos/САШЭ/ХОУМ.jpg",
+      "CategoryID": "sachets",
+      "Enabled": true,
+      "ShortLegalLine": "Полный состав и инструкция — на упаковке.",
+      "AllergyShort": "Перед первым использованием проведите тест: нанесите на сгиб локтя, проверьте 24 ч.",
+      "StorageShort": "Хранить при +5…+25 °C, вдали от прямых солнечных лучей.",
+      "ContactShort": "@solid_simple_support",
+      "_SourcePreview": {
+        "orig_keys_count": 13
+      },
+      "description": "Как возвращение в детство: знакомые ароматы, которые дарят чувство абсолютной защищенности\n\n🔬 НАУЧНЫЙ ФАКТ: Ваниль взаимодействует с рецепторамиы комфорта OR1A1, способствует ощущению безопасности. Мед и сандал могут быть связаны с повышением окситоцина — \"гормона привязанности\".\n\nЧТО ВЫ ПОЧУВСТВУЕТЕ:\n🍋  Радость , как от лимонного пирога\n🏡 Ощущение детства и заботы\n🛌 Безопасность и абсолютное расслабление\n\nКОМПОЗИЦИЯ:\n🍋 Лимон → кристальная чистота\n🌼 Ромашка → нежное успокоение\n🌲 Сандал → древесная стабильность\n🍯 Мед → сладкое воспоминание\n🍦 Ваниль → теплый комфорт\n🌿 Мелисса → мягкая нежность",
+      "Buttons": [
+        {
+          "Label": "Важная информация",
+          "Callback": "nav:info",
+          "Target": "S_INFO"
+        }
+      ],
+      "allergy_test": "Перед первым использованием проведите тест: нанесите на сгиб локтя, проверьте 24 ч."
+    },
+    {
+      "ProductID": "SACH03",
+      "ProductTitle": "Саше «Санрайз»",
+      "ShortDesc": "🌅 Как первые лучи солнца, пробивающиеся сквозь шторы: мягкое пробуждение и энергия нового дня",
+      "Price": "900",
+      "Volume": "50 гр",
+      "ImagePath": "photos/САШЭ/САНРАЙЗ.jpg",
+      "CategoryID": "sachets",
+      "Enabled": true,
+      "ShortLegalLine": "Полный состав и инструкция — на упаковке.",
+      "AllergyShort": "",
+      "StorageShort": "Хранить при +5…+25 °C, вдали от прямых солнечных лучей.",
+      "ContactShort": "@solid_simple_support",
+      "_SourcePreview": {
+        "orig_keys_count": 13
+      },
+      "description": "Первые лучи солнца, пробивающиеся сквозь шторы: мягкое пробуждение и энергия нового дня 🌅.\n\n🔬 НАУЧНЫЙ ФАКТ: лимонен из бергамота может улучшать настроение, а цинеол из розмарина может поддерживать фокус и когнитивные функции.\n\nЧТО ВЫ ПОЧУВСТВУЕТЕ: свежее дыхание утра, чистоту воздуха и бодрость.\n\nКОМПОЗИЦИЯ:\n🍋 Бергамот → цитрусовое пробуждение\n🌿 Розмарин → травяная бодрость\n🌲 Можжевельник → хвойная свежесть\n🌵 Алоэ вера → мягкость и уход",
+      "Buttons": [
+        {
+          "Label": "Важная информация",
+          "Callback": "nav:info",
+          "Target": "S_INFO"
+        }
+      ]
+    },
+    {
+	  "ProductID": "SACH04",
+	  "ProductTitle": "Саше «Скандинавия»",
+	  "ShortDesc": "🌲 Прогулка по хвойному норвежскому лесу : чистый влажный воздух и ощущение свободы",
+	  "Price": "900",
+	  "Volume": "50 гр",
+	  "ImagePath": "photos/САШЭ/СКАНДИ.jpg",
+	  "CategoryID": "sachets",
+	  "Enabled": true,
+	  "ShortLegalLine": "Полный состав и инструкция — на упаковке.",
+	  "AllergyShort": "",
+	  "StorageShort": "Хранить при +5…+25 °C, вдали от прямых солнечных лучей.",
+	  "ContactShort": "@solid_simple_support",
+	  "_SourcePreview": {
+		"orig_keys_count": 13
+	  },
+	  "description": "❄️ Как прогулка по хвойному норвежскому лесу: чистый влажный воздух и ощущение свободы.\n\n🔬 НАУЧНЫЙ ФАКТ: хвойные масла (кедр, можжевельник) содержат пинены — соединения, в исследованиях связанные с противовоспалительными и антибактериальными свойствами, и которые могут способствовать ощущению чистоты.\n\nЧТО ВЫ ПОЧУВСТВУЕТЕ:\n🌫️ Чистоту горного воздуха\n🌲 Силу северного леса\n⚡ Природную энергию и бодрость\n\nКОМПОЗИЦИЯ:\n🌊 Озон → свежесть\n🍊 Апельсин → солнечная энергия\n🌿 Бергамот → утончённая горьковатость\n🌲 Кедр → древесная сила\n🪵 Можжевельник → хвойная чистота\n🌳 Гваяковое дерево → дымная глубина\n🎵 Мускус и амбра → тёплый шлейф\n🪵 Сандаловое дерево → медитативный покой",
+      "Buttons": [
+        {
+          "Label": "Важная информация",
+          "Callback": "nav:info",
+          "Target": "S_INFO"
+        }
+      ]
+    },
+    {
+	  "ProductID": "SACH05",
+	  "ProductTitle": "Саше «Луна»",
+	  "ShortDesc": "🌙 Как лунная дорожка на поверхности озера: таинственность, спокойствие и глубина.",
+	  "Price": "900",
+	  "Volume": "50 гр",
+	  "ImagePath": "photos/САШЭ/ЛУНА.jpg",
+	  "CategoryID": "sachets",
+	  "Enabled": true,
+	  "ShortLegalLine": "Полный состав и инструкция — на упаковке.",
+	  "AllergyShort": "",
+	  "StorageShort": "Хранить при +5…+25 °C, вдали от прямых солнечных лучей.",
+	  "ContactShort": "@solid_simple_support",
+	  "_SourcePreview": {
+		"orig_keys_count": 13
+	  },
+	  "description": "🌙 Лунная дорожка на поверхности озера: таинственность, спокойствие и глубина.\n\n🔬 НАУЧНЫЙ ФАКТ: лаванда содержит бензилацетат и индол, которые в исследованиях связывают с мягкими седативными эффектами и способствуют релаксации и снижению тревожности.\n\nЧТО ВЫ ПОЧУВСТВУЕТЕ:\n🌌 Таинственность и спокойствие ночи\n🚀 Ощущение полёта\n💆 Глубокую релаксацию и умиротворение\n\nКОМПОЗИЦИЯ:\n🌿 Лаванда → ночная тайна\n🌙 Лемонграсс → холодное сияние",
+      "Buttons": [
+        {
+          "Label": "Важная информация",
+          "Callback": "nav:info",
+          "Target": "S_INFO"
+        }
+      ]
+	},
+	{
+	  "ProductID": "BE01",
+	  "ProductTitle": "Свеча «Лаванда-Лемонграсс»",
+	  "ShortDesc": "💜 Тихий вечер в прованском саду: умиротворение, которое окутывает теплом и проясняет мысли",
+	  "Price": "900",
+	  "Volume": "90 гр",
+	  "ImagePath": "photos/ПЧЕЛИНАЯ СВЕЧА/ЛАВАНДАЛЕМОНГРАСС.jpg",
+	  "CategoryID": "beecandles",
+	  "Enabled": true,
+	  "ShortLegalLine": "Полный состав и инструкция — на упаковке.",
+	  "AllergyShort": "",
+	  "StorageShort": "Хранить при +5…+25 °C, вдали от прямых солнечных лучей.",
+	  "ContactShort": "@solid_simple_support",
+	  "SafetyShort": "Не оставляйте горящую свечу без присмотра; держите вдали от детей и животных.",
+	  "_SourcePreview": {
+		"orig_keys_count": 14
+	  },
+	  "description": "Тихий вечер в прованском саду: умиротворение, которое окутывает теплом и проясняет мысли.\n\n🔬 НАУЧНЫЙ ФАКТ: лаванда содержит линалоол, который в исследованиях связывают со снижением восприятия стресса; цитраль из лемонграсса взаимодействует с рецепторами свежести, создавая ощущение спокойной ясности.\n\nЧТО ВЫ ПОЧУВСТВУЕТЕ:\n🌙 Глубокое расслабление, как после часовой медитации\n🌀 Ментальную свежесть, словно глоток холодного мятного лимонада\n⚖️ Баланс между спокойствием и лёгкой бодростью\n\nКОМПОЗИЦИЯ:\n🟣 Лаванда → расслабление\n🍋 Лемонграсс → ясность ума\n🌿 Ладан → глубокое спокойствие",
+	  "Buttons": [
+		{
+		  "Label": "Важная информация",
+		  "Callback": "nav:info",
+		  "Target": "S_INFO"
+		}
+	  ]
+	},
+    {
+      "ProductID": "BE02",
+      "ProductTitle": "Свеча «Календула-Ваниль»",
+      "ShortDesc": "🍦 Как объятия друга: мгновенное чувство защищенности и радости",
+      "Price": "900",
+      "Volume": "90 гр",
+      "ImagePath": "photos/ПЧЕЛИНАЯ СВЕЧА/КАЛЕНДУЛАВАНИЛЬ.jpg",
+      "CategoryID": "beecandles",
+      "Enabled": true,
+      "ShortLegalLine": "Полный состав и инструкция — на упаковке.",
+      "AllergyShort": "",
+      "StorageShort": "Хранить при +5…+25 °C, вдали от прямых солнечных лучей.",
+      "ContactShort": "@solid_simple_support",
+      "SafetyShort": "Не оставляйте горящую свечу без присмотра; держите вдали от детей и животных.",
+      "_SourcePreview": {
+        "orig_keys_count": 14
+      },
+      "description": "❤️Объятия друга: мгновенное чувство защищенности и радости\n\n🔬 НАУЧНЫЙ ФАКТ : Ваниль взаимодействует с рецепторамиы комфорта OR1A1, а яркие каротиноиды календулы визуально стимулируют центры удовольствия в мозге.\n\nЧТО ВЫ ПОЧУВСТВУЕТЕ:\n☀️ Лучистое настроение, как в солнечный день\n🛋️ Ощущение домашнего уюта и безопасности \n🎨 Творческий подъем и вдохновение\n\nКОМПОЗИЦИЯ:\n🌼 Календула → визуальная радость\n🍦 Ваниль → эмоциональное тепло\n🐝 Пчелиный воск → природная гармония",
+      "Buttons": [
+        {
+          "Label": "Важная информация",
+          "Callback": "nav:info",
+          "Target": "S_INFO"
+        }
+      ]
+    },
+    {
+      "ProductID": "BE03",
+      "ProductTitle": "Свеча «Роза-Апельсин»",
+      "ShortDesc": "🌿 Вечерняя  медитация в саду: баланс между энергией и умиротворением",
+      "Price": "900",
+      "Volume": "90 гр",
+      "ImagePath": "photos/ПЧЕЛИНАЯ СВЕЧА/РОЗААПЕЛЬСИН.jpg",
+      "CategoryID": "beecandles",
+      "Enabled": true,
+      "ShortLegalLine": "Состав и инструкция по уходу на упаковке.",
+      "AllergyShort": "",
+      "StorageShort": "Хранить при +5…+25 °C, вдали от прямых солнечных лучей.",
+      "ContactShort": "@solid_simple_support",
+      "SafetyShort": "Не оставляйте горящую свечу без присмотра; держите вдали от детей и животных.\n• Перед зажжением подрежьте фитиль до 5 мм.",
+      "_SourcePreview": {
+        "orig_keys_count": 14
+      },
+      "description": "⚖️Вечерняя  медитация в саду: баланс между энергией и умиротворением\n\n🔬 НАУЧНЫЙ ФАКТ: Роза модулирует серотониновые пути, создавая эмоциональный баланс. Апельсин через лимонен повышает активность префронтальной коры — возникает гармоничная концентрация.\n\nЧТО ВЫ ПОЧУВСТВУЕТЕ:\n🌹 Эмоциональную гармонию, как после йоги\n🍊 Легкую бодрость без перевозбуждения\n💝 Ощущение любви к себе и окружающим\n\nКОМПОЗИЦИЯ:\n🐝 Натуральный пчелиный воск\n🌹 Роза → открытие сердца\n🍊 Апельсин → радостная энергия  \n🌲 Кедр → устойчивость и покой",
+      "Buttons": [
+        {
+          "Label": "Важная информация",
+          "Callback": "nav:info",
+          "Target": "S_INFO"
+        }
+      ]
+    },
+	{
+	  "ProductID": "CC01",
+	  "ProductTitle": "Свеча в бетоне «Париж»",
+	  "ShortDesc": "🏙️ Город любви",
+	  "Price": "2500",
+	  "Volume": "250 мл",
+	  "ImagePath": "photos/СВЕЧА В БЕТОНЕ/ПАРИЖ.jpg",
+	  "CategoryID": "concrete_candles",
+	  "Enabled": true,
+      "ShortLegalLine": "Состав и инструкция по уходу на упаковке.\n• Бетон - пористый материал, оберегайте от ударов и влаги.",
+	  "AllergyShort": "",
+	  "StorageShort": "Хранить при +5…+25 °C, вдали от прямых солнечных лучей.",
+	  "ContactShort": "@solid_simple_support",
+      "SafetyShort": "Не оставляйте горящую свечу без присмотра; держите вдали от детей и животных.\n• Перед зажжением подрежьте фитиль до 5 мм.",
+	  "_SourcePreview": {
+		"orig_keys_count": 14
+	  },
+	  "description": "🏙️ Настроение нежности, элегантности и романтической прогулки с букетом нежных цветов\n\n💫 **АРОМАТИЧЕСКАЯ КОМПОЗИЦИЯ**: Верхние ноты раскрывают аромат  сочным грейпфрутом и кислинкой спелой смородины. Сердце композиции  изысканный  букет чайной розы, жасмина и нежного пиона. База аромата звучит плотной фруктово-сладкой нотой красного мускуса.\n\n📄 СОСТАВ: форма : архитектурный бетон (ручное изготовление), свеча : соевый воск, кокосовый воск, авторская арома композиция с нотами смородина, пиона, красного мускуса, натуральные эфирные масла (розы, грейпфрута, жасмина).\n\n🌸 Интерьерная свеча ручной работы в бетонном стакане. После сгорания воска форма может использоваться как кашпо для суккулентов или стильный органайзер.\n🙌🏼 Каждое изделие уникально форма  шлифуется и окрашивается вручную, возможны естественные колебания оттенка и фактуры.\n\nВес воска: 230г | Общее время горения: 60ч",
+	  "Buttons": [
+		{
+		  "Label": "Важная информация",
+		  "Callback": "nav:info",
+		  "Target": "S_INFO"
+		}
+	  ]
+	},
+	{
+	  "ProductID": "CC02",
+	  "ProductTitle": "Свеча в бетоне «Дом»",
+	  "ShortDesc": "🏠 Уютный вечер в любимом месте",
+	  "Price": "2500",
+	  "Volume": "250 мл",
+	  "ImagePath": "photos/СВЕЧА В БЕТОНЕ/ХОУМ.jpg",
+	  "CategoryID": "concrete_candles",
+	  "Enabled": true,
+      "ShortLegalLine": "Состав и инструкция по уходу на упаковке.\n• Бетон - пористый материал, оберегайте от ударов и влаги.",
+	  "AllergyShort": "",
+	  "StorageShort": "Хранить при +5…+25 °C, вдали от прямых солнечных лучей.",
+	  "ContactShort": "@solid_simple_support",
+      "SafetyShort": "Не оставляйте горящую свечу без присмотра; держите вдали от детей и животных.\n• Перед зажжением подрежьте фитиль до 5 мм.",
+	  "_SourcePreview": {
+		"orig_keys_count": 14
+	  },
+	  "description": "🏡 Тепло и уют которые ждут тебя\n\n💫 **АРОМАТИЧЕСКАЯ КОМПОЗИЦИЯ**: Верхние ноты чистый , солнечный  лимон . Сердце аромата нежная садова ромашка  и тёплый , тягучий мёд, напоминающий  о бабушкином варенье  и  разговорах за чашкой чая. База аромата мягко окутывает сладковатой ванилью и благородным глубоким звучанием индийского  сандала, создавая ощущение надёжности, покоя и возвращения домой.\n\n📄 СОСТАВ: форма : архитектурный бетон (ручное изготовление), свеча: соевый воск, кокосовый воск, авторская ароматическая композиция с нотами мёда и ванили, натуральные эфирные масла (лимона, ромашки, сандала).\n\n🌸 Интерьерная свеча ручной работы в бетонном стакане. После сгорания воска форма может использоваться как кашпо для суккулентов или стильный органайзер.\n🙌🏼 Каждое изделие уникально форма  шлифуется и окрашивается вручную, возможны естественные колебания оттенка и фактуры.\n\nВес воска: 230г | Общее время горения: 60ч",
+	  "Buttons": [
+		{
+		  "Label": "Важная информация",
+		  "Callback": "nav:info",
+		  "Target": "S_INFO"
+		}
+	  ]
+	},
+	{
+	  "ProductID": "CC03",
+	  "ProductTitle": "Свеча в бетоне «Скандинавия»",
+	  "ShortDesc": "🌲 Дыхание северных лесов",
+	  "Price": "2500",
+	  "Volume": "250 мл",
+	  "ImagePath": "photos/СВЕЧА В БЕТОНЕ/СКАНДИ.jpg",
+	  "CategoryID": "concrete_candles",
+	  "Enabled": true,
+      "ShortLegalLine": "Состав и инструкция по уходу на упаковке.\n• Бетон - пористый материал, оберегайте от ударов и влаги.",
+	  "AllergyShort": "",
+	  "StorageShort": "Хранить при +5…+25 °C, вдали от прямых солнечных лучей.",
+	  "ContactShort": "@solid_simple_support",
+      "SafetyShort": "Не оставляйте горящую свечу без присмотра; держите вдали от детей и животных.\n• Перед зажжением подрежьте фитиль до 5 мм.",
+	  "_SourcePreview": {
+		"orig_keys_count": 14
+	  },
+	  "description": "🌲 Бескрайние леса, чистый воздух фьордов и тишина серых скал.\n\n💫 **АРОМАТИЧЕСКАЯ КОМПОЗИЦИЯ**: Верхние ноты откроют свежесть озона, холодную  мяту и сладко-горькую комбинацию цитрусов апельсина и бергамота. В сердце композиции густой хвойный лес: смолистый кедр, терпкий можжевельник и дымная глубина гваякового дерева смешаны с травяной нотой лимонной мелиссы . База аромата полна объемного звучания : влажный мох, землистый пачули и едва уловимый мускус, рождающий ассоциацию с первозданностью природы.\n\n📄 СОСТАВ: форма : архитектурный бетон (ручное изготовление ), свеча: соевый воск, кокосовый воск, авторская ароматическая композиция с нотами озона, гваякового дерева, мха, мускуса, натуральные эфирные масла (апельсина, бергамота, мяты, мелиссы, кедра, можжевельника, пачули).\n\n🌸 Интерьерная свеча ручной работы в бетонном стакане. После сгорания воска форма может использоваться как кашпо для суккулентов или стильный органайзер.\n🙌🏼 Каждое изделие уникально форма  шлифуется и окрашивается вручную, возможны естественные колебания оттенка и фактуры.\n\nВес воска: 230г | Общее время горения: 60ч",
+	  "Buttons": [
+		{
+		  "Label": "Важная информация",
+		  "Callback": "nav:info",
+		  "Target": "S_INFO"
+		}
+	  ]
+	},
+    {
+      "ProductID": "DI01",
+      "ProductTitle": "Диффузор «Ты»",
+      "ShortDesc": "🍋 Самое нежное воспоминание",
+      "Price": "2500",
+      "Volume": "100 мл",
+      "ImagePath": "photos/ДИФФУЗОРЫ/ТЫ.jpg",
+      "CategoryID": "diffusers",
+      "Enabled": true,
+      "ShortLegalLine": "Полный состав и инструкция — на упаковке.",
+      "AllergyShort": "",
+      "StorageShort": "Хранить при +5…+25 °C, вдали от прямых солнечных лучей.",
+      "ContactShort": "@solid_simple_support",
+      "_SourcePreview": {
+        "orig_keys_count": 13
+      },
+      "description": "🌸 ТЫ: нежность и чувственность\n\nУтонченная цветочно-мускусная композиция.\n\n💫Аромат «Ты» - это запах воспоминания, нежный и стойкий.\n🍋Он начинается с лёгкой, солнечной ноты бергамота - словно первая улыбка, первая искра.\n💖 Сердце аромата раскрывается тёплым, пыльным бархатом ириса и медовой нотой османтуса как близость и прикосновение, застывшее в памяти.\n🪔Базовые ноты раскрываются шлейфом белого мускуса и мягкой ванили, которые остаются в воздухе, как обещание, как сокровенное чувство.\n\n🔬 СОСТАВ:\nЭкологически чистая база для диффузора, авторская ароматическая композиция с добавлением эфирных масел.\n\n• Верхние ноты: бергамот.\n• Ноты сердца: ирис, османтус.\n• Базовые ноты: ваниль, белый мускус.\n\n🌼Арома-композиция для создания атмосферы.",
+      "Buttons": [
+        {
+          "Label": "Важная информация",
+          "Callback": "nav:info",
+          "Target": "S_INFO"
+        }
+      ]
+    },
+    {
+      "ProductID": "DI02",
+      "ProductTitle": "Диффузор «Любовь»",
+      "ShortDesc": "❤️ Красное вино при свечах",
+      "Price": "2500",
+      "Volume": "100 мл",
+      "ImagePath": "photos/ДИФФУЗОРЫ/ЛЮБОВЬ.jpg",
+      "CategoryID": "diffusers",
+      "Enabled": true,
+      "ShortLegalLine": "Полный состав и инструкция — на упаковке.",
+      "AllergyShort": "",
+      "StorageShort": "Хранить при +5…+25 °C, вдали от прямых солнечных лучей.",
+      "ContactShort": "@solid_simple_support",
+      "_SourcePreview": {
+        "orig_keys_count": 13
+      },
+      "description": "❤️ ЛЮБОВЬ: страсть и глубина\n\nПлодово-цветочная композиция с характером.\n\n💫Аромат «Любовь» - это запах страсти, насыщенный и волнующий.\n🍊Он начинается с яркой цитрусовой ноты грейпфрута и пьянящего аккорда красного вина.\n💖 Сердце аромата раскрывается бархатом тёмной розы и томным жасмином, окутанными прохладой ночной лаванды.\n🪔Базовые ноты раскрываются шлейфом спелой сливы, красного мускуса и тёплого кашемира.\n\n🔬 СОСТАВ:\nЭкологически чистая база для диффузора, авторская ароматическая композиция с добавлением эфирных масел.\n\n• Верхние ноты: грейпфрут, красное вино.\n• Ноты сердца: роза, жасмин, лаванда.\n• Базовые ноты: слива, красный мускус, кашемир.\n\n🌼Арома-композиция для создания атмосферы.",
+      "Buttons": [
+        {
+          "Label": "Важная информация",
+          "Callback": "nav:info",
+          "Target": "S_INFO"
+        }
+      ]
+    },
+    {
+      "ProductID": "DI03",
+      "ProductTitle": "Диффузор «Путь»",
+      "ShortDesc": "🌿 Дорога к себе",
+      "Price": "2500",
+      "Volume": "100 мл",
+      "ImagePath": "photos/ДИФФУЗОРЫ/ПУТЬ.jpg",
+      "CategoryID": "diffusers",
+      "Enabled": true,
+      "ShortLegalLine": "Полный состав и инструкция — на упаковке.",
+      "AllergyShort": "",
+      "StorageShort": "Хранить при +5…+25 °C, вдали от прямых солнечных лучей.",
+      "ContactShort": "@solid_simple_support",
+      "_SourcePreview": {
+        "orig_keys_count": 13
+      },
+      "description": "🧭 ПУТЬ: дух земли и свободы\n\nДревесно-землистая композиция зовущая за собой.\n\n💫Аромат «Путь» - это запах дороги, первозданный и забытый.\n🍋Он начинается с бодрящей свежести зелёного лайма, как глоток воздуха на горной тропе.\n💖 Сердце аромата раскрывается сухой, солнечной нотой сена и тёплой кожей седла, раскрывая бескрайние поля и стук копыт.\n🪔Базовые ноты открыты глубоким, смолистым шлейфом пачули и ветивера, согретыми лабданумом - как воспоминание о скалах, земле под ногами и чувстве полного единения с миром.\n\n🔬 СОСТАВ:\nЭкологически чистая база для диффузора, авторская ароматическая композиция с добавлением эфирных масел.\n\n• Верхние ноты: лайм.\n• Ноты сердца: сено, замша.\n• Базовые ноты: пачули, ветивер, лабданум.\n\n🌼Арома-композиция для создания атмосферы.",
+      "Buttons": [
+        {
+          "Label": "Важная информация",
+          "Callback": "nav:info",
+          "Target": "S_INFO"
+        }
+      ]
+    },
+    {
+      "ProductID": "DI04",
+      "ProductTitle": "Диффузор «Чистота»",
+      "ShortDesc": "✨ Пробуждение весны",
+      "Price": "2500",
+      "Volume": "100 мл",
+      "ImagePath": "photos/ДИФФУЗОРЫ/ЧИСТОТА.jpg",
+      "CategoryID": "diffusers",
+      "Enabled": true,
+      "ShortLegalLine": "Полный состав и инструкция — на упаковке.",
+      "AllergyShort": "",
+      "StorageShort": "Хранить при +5…+25 °C, вдали от прямых солнечных лучей.",
+      "ContactShort": "@solid_simple_support",
+      "_SourcePreview": {
+        "orig_keys_count": 13
+      },
+      "description": "✨ ЧИСТОТА: свежесть и легкость\n\nПрозрачная зелено-цветочная акварель.\n\n💫Аромат «Чистота» - запах первого весеннего утра, хрустальный и свежий.\n🍋Он начинается с капли прохладной мяты и кислинки лимона.\n💖 Сердце аромата раскрывается сочным зелёным горошком, нежным ландышем и тонким шёлком жасмина.\n🪔Базовые ноты раскрываются чистым, уютным шлейфом свежего хлопка - как память о белье, высушенном на ветру, и о пространстве, где легко дышится и думается.\n\n🔬 СОСТАВ:\nЭкологически чистая база для диффузора, авторская ароматическая композиция с добавлением эфирных масел.\n\n• Верхние ноты: лимон, мята.\n• Ноты сердца: зеленый горошек, ландыш, жасмин.\n• Базовые ноты: чистый хлопок.\n\n🌼Арома-композиция для создания атмосферы.",
+      "Buttons": [
+        {
+          "Label": "Важная информация",
+          "Callback": "nav:info",
+          "Target": "S_INFO"
+        }
+      ]
+    },
+    {
+      "ProductID": "DI05",
+      "ProductTitle": "Диффузор «Тепло»",
+      "ShortDesc": "🌿 Возвращение домой",
+      "Price": "2500",
+      "Volume": "100 мл",
+      "ImagePath": "photos/ДИФФУЗОРЫ/ТЕПЛО.jpg",
+      "CategoryID": "diffusers",
+      "Enabled": true,
+      "ShortLegalLine": "Полный состав и инструкция — на упаковке.",
+      "AllergyShort": "",
+      "StorageShort": "Хранить при +5…+25 °C, вдали от прямых солнечных лучей.",
+      "ContactShort": "@solid_simple_support",
+      "_SourcePreview": {
+        "orig_keys_count": 13
+      },
+      "description": "🔥 ТЕПЛО: домашний уют и гармония\n\nСогревающая древесно-шоколадная композиция.\n\n💫Аромат «Тепло» - это чувство долгожданного возвращения домой.\n🍊Верхние ноты сладкий и сочный апельсин с тягучей, пряной ванилью, они создают атмосферу праздника.\n💖 Сердце аромата раскрывается глубоким ароматом сандалового дерева, смолистым кедром и благородной горчинкой абсолюта какао-бобов.\n🪔Как долгожданная чашечка горячего шоколада у камина.\n\n🔬 СОСТАВ:\nЭкологически чистая база для диффузора, авторская ароматическая композиция с добавлением эфирных масел и абсолюта.\n\n• Верхние ноты: апельсин.\n• Ноты сердца: абсолют какао-бобов.\n• Базовые ноты: ваниль, сандал, кедр.\n\n🌼Арома-композиция для создания атмосферы.",
+      "Buttons": [
+        {
+          "Label": "Важная информация",
+          "Callback": "nav:info",
+          "Target": "S_INFO"
+        }
+      ]
+    },
+    {
+      "ProductID": "DI06",
+      "ProductTitle": "Диффузор «Детство»",
+      "ShortDesc": "🍦 Аромат родом из детства",
+      "Price": "2500",
+      "Volume": "100 мл",
+      "ImagePath": "photos/ДИФФУЗОРЫ/ДЕТСТВО.jpg",
+      "CategoryID": "diffusers",
+      "Enabled": true,
+      "ShortLegalLine": "Полный состав и инструкция — на упаковке.",
+      "AllergyShort": "",
+      "StorageShort": "Хранить при +5…+25 °C, вдали от прямых солнечных лучей.",
+      "ContactShort": "@solid_simple_support",
+      "_SourcePreview": {
+        "orig_keys_count": 13
+      },
+      "description": "👶 ДЕТСТВО: сладкая ностальгия и чистая радость\n\nСвежая фруктово-молочная композиция.\n\n💫Аромат «Детство» - это мгновенное возвращение в беззаботные дни.\n🍋Он начинается с искрящейся кислинки лимона и свежей прохлады аниса.\n💖 Сердце аромата раскрывается сочной, спелой сладостью груши и нежным, сливочным облаком овсяного молока - словно грушевое варенье у бабушки на кухне и запах утреннего завтрака.\n\n🔬 СОСТАВ:\nЭкологически чистая база для диффузора, авторская ароматическая композиция с добавлением эфирных масел.\n\n• Верхние ноты: лимон.\n• Ноты сердца: груша, анис.\n• Базовые ноты: ваниль, овсяное молоко.\n\n🌼Арома-композиция для создания атмосферы.",
+      "Buttons": [
+        {
+          "Label": "Важная информация",
+          "Callback": "nav:info",
+          "Target": "S_INFO"
+        }
+      ]
+    },
+    {
+      "ProductID": "CP01",
+      "ProductTitle": "Автопарфюм «Дом»",
+      "ShortDesc": "🏠 Ощущение полного спокойствия, когда за рулем собственного автомобиля вы чувствуете себя в полной безопасности",
+      "Price": "900",
+      "Volume": "10 мл",
+      "ImagePath": "photos/АВТОПАРФЮМ/ХОУМ.jpg",
+      "CategoryID": "car_perfumes",
+      "Enabled": true,
+      "ShortLegalLine": "Полный состав и инструкция — на упаковке.",
+      "AllergyShort": "",
+      "StorageShort": "Хранить при +5…+25 °C, вдали от прямых солнечных лучей.",
+      "ContactShort": "@solid_simple_support",
+      "_SourcePreview": {
+        "orig_keys_count": 13
+      },
+      "description": "🏠 Возвращение в детство: знакомые ароматы, которые дарят чувство абсолютной защищенности\n\n🔬 НАУЧНЫЙ ФАКТ: Ваниль взаимодействует с рецепторамиы комфорта OR1A1, способствует ощущению безопасности. Мед и сандал могут быть связаны с повышением окситоцина — \"гормона привязанности\".\n\nЧТО ВЫ ПОЧУВСТВУЕТЕ:\n🍋  Радость , как от лимонного пирога\n🏡 Ощущение детства и заботы\n🛌 Безопасность и абсолютное расслабление\n\nКОМПОЗИЦИЯ:\n🍋 Лимон → кристальная чистота\n🌼 Ромашка → нежное успокоение\n🌲 Сандал → древесная стабильность\n🍯 Мед → сладкое воспоминание\n🍦 Ваниль → теплый комфорт\n🌿 Мелисса → мягкая нежность*",
+      "Buttons": [
+        {
+          "Label": "Важная информация",
+          "Callback": "nav:info",
+          "Target": "S_INFO"
+        }
+      ]
+    },
+    {
+      "ProductID": "CP02",
+      "ProductTitle": "Автопарфюм «Скандинавия»",
+      "ShortDesc": "🍋 Стремительная поездка с раскрытым окном: кристальный воздух и ощущение полной свободы",
+      "Price": "900",
+      "Volume": "10 мл",
+      "ImagePath": "photos/АВТОПАРФЮМ/СКАНДИ.jpg",
+      "CategoryID": "car_perfumes",
+      "Enabled": true,
+      "ShortLegalLine": "Полный состав и инструкция — на упаковке.",
+      "AllergyShort": "",
+      "StorageShort": "Хранить при +5…+25 °C, вдали от прямых солнечных лучей.",
+      "ContactShort": "@solid_simple_support",
+      "_SourcePreview": {
+        "orig_keys_count": 13
+      },
+      "description": "❄️ СКАНДИНАВИЯ — Северная чистота. основано на исследованиях в ароматерапии\n\nКак прогулка по хвойному норвежскому лесу : чистый влажный воздух и ощущение свободы\n\n🔬 НАУЧНЫЙ ФАКТ: Хвойные масла (кедр, можжевельник) содержат пинены, которые обладают природными антибактериальными свойствами и способствует ощущению стерильной чистоты.\n\nЧТО ВЫ ПОЧУВСТВУЕТЕ:\n🌫️ Чистоту горного воздуха\n🌲 Силу северного леса\n🌀 Ясность мыслей и концентрацию\n⚡ Природную энергию и бодрость\n\nКОМПОЗИЦИЯ:\n🌊 Озон → свежесть\n🍊 Апельсин → солнечная энергия\n🌿 Бергамот → утонченная горьковатость\n🌲 Кедр → древесная сила\n🪵 Можжевельник → хвойная чистота\n🌳 Гваяковое дерево → дымная глубина\n🎵 Мускус и амбра → теплый шлейф\n🪵 Сандаловое дерево → медитативный покой*",
+      "Buttons": [
+        {
+          "Label": "Важная информация",
+          "Callback": "nav:info",
+          "Target": "S_INFO"
+        }
+      ]
+    },
+    {
+      "ProductID": "CP03",
+      "ProductTitle": "Автопарфюм «Луна»",
+      "ShortDesc": "🌙 Как езда по пустынному ночному шоссе, когда мир за окном растворяется, и остается только дорога и тишина",
+      "Price": "900",
+      "Volume": "10 мл",
+      "ImagePath": "photos/АВТОПАРФЮМ/ЛУНА.jpg",
+      "CategoryID": "car_perfumes",
+      "Enabled": true,
+      "ShortLegalLine": "Полный состав и инструкция — на упаковке.",
+      "AllergyShort": "",
+      "StorageShort": "Хранить при +5…+25 °C, вдали от прямых солнечных лучей.",
+      "ContactShort": "@solid_simple_support",
+      "_SourcePreview": {
+        "orig_keys_count": 13
+      },
+      "description": "🌙 Лунная дорожка на поверхности озера: таинственность, спокойствие и глубина\n\n🔬 НАУЧНЫЙ ФАКТ: Лаванда содержит бензилацетат и индол, которые обладают мягкими седативными свойствами, способствуя релаксации и снижению тревожности.\n\n\nЧТО ВЫ ПОЧУВСТВУЕТЕ:\n🌌 Таинственность и спокойствие ночи\n🚀 Ощущение полета \n💆 Глубокую релаксацию и умиротворение\n\nКОМПОЗИЦИЯ:\n🌿 Лаанда→ ночная тайна\n🌙 Лемонграсс → холодное сияние*",
+      "Buttons": [
+        {
+          "Label": "Важная информация",
+          "Callback": "nav:info",
+          "Target": "S_INFO"
+        }
+      ]
+    },
+    {
+      "ProductID": "CP04",
+      "ProductTitle": "Автопарфюм «Ты»",
+      "ShortDesc": "🍋 Момент полного единения с собой и дорогой",
+      "Price": "900",
+      "Volume": "10 мл",
+      "ImagePath": "photos/АВТОПАРФЮМ/ТЫ.jpg",
+      "CategoryID": "car_perfumes",
+      "Enabled": true,
+      "ShortLegalLine": "Полный состав и инструкция — на упаковке.",
+      "AllergyShort": "",
+      "StorageShort": "Хранить при +5…+25 °C, вдали от прямых солнечных лучей.",
+      "ContactShort": "@solid_simple_support",
+      "_SourcePreview": {
+        "orig_keys_count": 13
+      },
+      "description": "💫 ТЫ — Внутренняя гармония. \n\nКак тихий диалог с самой собой: момент, когда вся вселенная сжимается в ладони и становится одним дыханием\n\n🔬 НАУЧНЫЙ ФАКТ: Бергамот содержит лимонен (65-75%), который в исследованиях может способствовать повышению уровня серотонина. Османтус с его сесквитерпенами мягко стимулирует лимбическую систему — рождается состояние целостности.\n\nЧТО ВЫ ПОЧУВСТВУЕТЕ:\n🌌 Глубокий покой и принятие себя\n🌀 Ясность мыслей, как после медитации\n💝 Нежность к себе и окружающему миру\n\nКОМПОЗИЦИЯ:\n🍋 Бергамот → цитрусовая искра утра\n🌸 Османтус → тихая радость бытия\n🕊️ Белый мускус → вечная мягкость\n🌿 Ирис → цветущая гармония\n🍦 Ваниль → тепло заката",
+      "Buttons": [
+        {
+          "Label": "Важная информация",
+          "Callback": "nav:info",
+          "Target": "S_INFO"
+        }
+      ]
+    },
+    {
+      "ProductID": "CP05",
+      "ProductTitle": "Автопарфюм «Любовь»",
+      "ShortDesc": "❤️ Как первая поездка вместе в неизвестном направлении, когда каждый поворот дарит новые эмоции",
+      "Price": "900",
+      "Volume": "10 мл",
+      "ImagePath": "photos/АВТОПАРФЮМ/ЛЮБОВЬ.jpg",
+      "CategoryID": "car_perfumes",
+      "Enabled": true,
+      "ShortLegalLine": "Полный состав и инструкция — на упаковке.",
+      "AllergyShort": "",
+      "StorageShort": "Хранить при +5…+25 °C, вдали от прямых солнечных лучей.",
+      "ContactShort": "@solid_simple_support",
+      "_SourcePreview": {
+        "orig_keys_count": 13
+      },
+      "description": "❤️ Первый глоток красного вина при свечах: томление, которое разжигает огонь в крови\n\n🔬 НАУЧНЫЙ ФАКТ: Грейпфрут могут взаимодействовать с тепловыми сенсорными путями рецепторы прохлады, создавая контраст с теплыми нотами. Роза через фенилэтиловый спирт стимулирует центры удовольствия.\n\n💫 ОЩУЩЕНИЕ: \"Мой секрет страсти и близости. Когда нужно создать атмосферу, где слова становятся лишними, а чувства говорят громче всего.\"\n\nЧТО ВЫ ПОЧУВСТВУЕТЕ:\n🍷 Томную жажду близости и неги\n🌹 Романтическое опьянение без вина\n🔥 Внутренний огонь и раскрепощение\n\nКОМПОЗИЦИЯ:\n🍊 Грейпфрут → игривая свежесть\n🌹 Роза → цветочная страсть\n🍇 Красное вино → бархатная глубина\n🍑 Слива → сочная сладость\n🧣 Кашемир → нежное прикосновение",
+      "Buttons": [
+        {
+          "Label": "Важная информация",
+          "Callback": "nav:info",
+          "Target": "S_INFO"
+        }
+      ]
+    },
+    {
+      "ProductID": "CP06",
+      "ProductTitle": "Автопарфюм «Путь»",
+      "ShortDesc": "🌿 Ощущение от первой поездки на арендованной машине в незнакомой стране: смесь свободы, адреналина и предвкушения открытий",
+      "Price": "900",
+      "Volume": "10 мл",
+      "ImagePath": "photos/АВТОПАРФЮМ/ПУТЬ.jpg",
+      "CategoryID": "car_perfumes",
+      "Enabled": true,
+      "ShortLegalLine": "Полный состав и инструкция — на упаковке.",
+      "AllergyShort": "",
+      "StorageShort": "Хранить при +5…+25 °C, вдали от прямых солнечных лучей.",
+      "ContactShort": "@solid_simple_support",
+      "_SourcePreview": {
+        "orig_keys_count": 13
+      },
+      "description": "🧭 Как дорога, ведущая к самому себе: каждый изгиб открывает новые горизонты внутри\n\n🔬 НАУЧНЫЙ ФАКТ: Пачули содержит пачулол, который может способствовать стабилизации эмоционального фона фон. Лайм через цитраль активирует префронтальную кору, усиливая креативность.\n\nЧТО ВЫ ПОЧУВСТВУЕТЕ:\n🗺️ Ощущение дороги и свободы\n🌄 Яркие воспоминания о путешествиях\n💡 Вдохновение для новых маршрутов\n\nКОМПОЗИЦИЯ:\n🌿 Пачули → земная устойчивость\n🍋 Лайм → дорожная свежесть\n🌲 Лабданум → смолистая глубина\n🌾 Сено → память полей\n🧳 Кожа → дух приключений",
+      "Buttons": [
+        {
+          "Label": "Важная информация",
+          "Callback": "nav:info",
+          "Target": "S_INFO"
+        }
+      ]
+    },
+    {
+      "ProductID": "CP07",
+      "ProductTitle": "Автопарфюм «Чистота»",
+      "ShortDesc": "🍋 Как ощущение от только что вымытого автомобиля с полным баком и готовностью к новым поездкам",
+      "Price": "900",
+      "Volume": "10 мл",
+      "ImagePath": "photos/АВТОПАРФЮМ/ЧИСТОТА.jpg",
+      "CategoryID": "car_perfumes",
+      "Enabled": true,
+      "ShortLegalLine": "Полный состав и инструкция — на упаковке.",
+      "AllergyShort": "",
+      "StorageShort": "Хранить при +5…+25 °C, вдали от прямых солнечных лучей.",
+      "ContactShort": "@solid_simple_support",
+      "_SourcePreview": {
+        "orig_keys_count": 13
+      },
+      "description": "✨ Утренняя роса на первых листьях весны: пробуждение, которое омывает душу и пространство\n\n🔬 ТЕХНОЛОГИЧЕСКИЙ ФАКТ: Наш диффузор использует систему холодного испарения, которая сохраняет молекулярную целостность ароматов.\n\nЧТО ВЫ ПОЧУВСТВУЕТЕ:\n🌱 Ощущение первозданной чистоты\n🍃 Легкость дыхания и ясность мыслей\n🏠 Свежесть только что убранного дома\n\nКОМПОЗИЦИЯ:\n🌿 Зеленый горошек → весенняя прохлада\n🍋 Лимон → солнечная дезинфекция\n☁️ Хлопок → стерильная нежность\n🌸 Ландыш → горная свежесть\n🌿 Мята → ледяное пробуждение",
+      "Buttons": [
+        {
+          "Label": "Важная информация",
+          "Callback": "nav:info",
+          "Target": "S_INFO"
+        }
+      ]
+    },
+    {
+      "ProductID": "CP08",
+      "ProductTitle": "Автопарфюм «Тепло»",
+      "ShortDesc": "🌿 Как ощущение от поездки в утепленном салоне зимним вечером, когда за окном метель, а вам мягко и комфортно",
+      "Price": "900",
+      "Volume": "10 мл",
+      "ImagePath": "photos/АВТОПАРФЮМ/ТЕПЛО.jpg",
+      "CategoryID": "car_perfumes",
+      "Enabled": true,
+      "ShortLegalLine": "Полный состав и инструкция — на упаковке.",
+      "AllergyShort": "",
+      "StorageShort": "Хранить при +5…+25 °C, вдали от прямых солнечных лучей.",
+      "ContactShort": "@solid_simple_support",
+      "_SourcePreview": {
+        "orig_keys_count": 13
+      },
+      "description": "⚡ ТЕПЛО: Теплый импульс. \n\nКак мягкое прикосновение к коже после прохлады ветра: созданное для того, чтобы согреть  тело и душу\nРЕЗУЛЬТАТЫ ИССЛЕДОВАНИЙ:\nГингерол и шогаолы из имбиря активируют тепловые рецепторы (TRPV1) и стимулируют микроциркуляцию кожи. Корица и мандарин усиливают ощущение тепла и улучшают настроение.\n\nЧТО ВЫ ПОЧУВСТВУЕТЕ:\n🔥 согреваю­щее объятие \n🧘  мягкость, расслабление\n🌇  внутреннее спокойствие\n\nКОМПОЗИЦИЯ:\n🌾 Имбирь → пробуждение кровообращения\n🌿 Корица → тепло и уют \n🍊 Мандарин → радость",
+      "Buttons": [
+        {
+          "Label": "Важная информация",
+          "Callback": "nav:info",
+          "Target": "S_INFO"
+        }
+      ]
+    },
+	{
+	  "ProductID": "HS01",
+	  "ProductTitle":"Текстильный спрей «Праздник»",
+	  "ShortDesc": "🎉 Мягкое воздействие аромата, создающее атмосферу праздника",
+	  "Price":"900",
+	  "Volume":"50 мл",
+	  "ImagePath": "photos/ХИТЫ/ТЕКСТ СПРЕЙ.jpg",
+	  "CategoryID": "quick_buy",
+	  "Enabled":true,
+	  "ShortLegalLine":"Полный состав и инструкция — на упаковке.",
+	  "AllergyShort":"",
+	  "StorageShort":"Хранить при +5…+25 °C, вдали от прямых солнечных лучей.",
+	  "ContactShort":"@solid_simple_support",
+	  "SafetyShort":"Распыляйте с расстояния 20–30 см, избегая попадания на деликатные ткани без предварительной проверки.",
+	  "_SourcePreview":{
+		"orig_keys_count":14
+	  },
+	  "description":"🎉 Мы создали его для тех, кто ценит натуральность и хочет окружить себя чистым звучанием природы.\n\n💫 **АРОМАТИЧЕСКАЯ КОМПОЗИЦИЯ**:\nВерхние ноты встречают бодрящей свежестью имбиря, кислинкой апельсина и сладостью мандарина. В сердце композиции раскрывается смолистая нота сосны. База аромата звучит нежной ванилью.\n\n📄 **СОСТАВ**:\nДистиллированная вода, авторская ароматическая композиция, натуральные эфирные масла (имбиря, апельсина, сосны, мандарина, ванили).\n\n🌸 Подходит для ароматизации постельного белья, полотенец, верхней одежды, штор и гардеробной. Можно использовать при глажке и при сушке белья в машине.",
+	  "Buttons":[
+		{
+		  "Label":"Важная информация",
+		  "Callback":"nav:info",
+		  "Target":"S_INFO"
+		}
+	  ]
+	}
+  ],
+  "ProductVariants": [],
+  "Buttons": [
+    {
+      "ButtonID": "BTN_NAV_BACK",
+      "SlideID": "*",
+      "Label": "Назад",
+      "Callback": "nav:back",
+      "Target": "previous",
+      "quick_buy": false,
+      "inline_add": false,
+      "show_in_list": false,
+      "persistent": true
+    },
+    {
+      "ButtonID": "BTN_NAV_HOME",
+      "SlideID": "*",
+      "Label": "Домой",
+      "Callback": "nav:home",
+      "Target": "S01",
+      "quick_buy": false,
+      "inline_add": false,
+      "show_in_list": false,
+      "persistent": true
+    },
+    {
+      "ButtonID": "BTN_CART_VIEW",
+      "SlideID": "*",
+      "Label": "Корзина",
+      "Callback": "cart:view",
+      "Target": "S_CART",
+      "quick_buy": false,
+      "inline_add": false,
+      "show_in_list": false,
+      "persistent": true
+    }
+  ],
+  "LegalInfo": {
+    "SellerType": "ИП / Физическое лицо (укажите ваши данные)",
+    "SellerName": "ℹ️ *Solid & Simple*",
+    "Contact": {
+      "Phone": "+7 (999) 123-45-67",
+      "Email": "info@solid-simple.ru",
+      "Telegram": "@solid_simple_support"
+    },
+    "PublicOfferURL": "",
+    "ReturnPolicyShort": "Возврат некачественного товара возможен в течение 14 дней при соблюдении условий. Возврат товара надлежащего качества — до вскрытия упаковки.",
+    "BuyConfirmationText": "Нажатием 'Купить' вы подтверждаете, что ознакомились с 'Важная информация' и условиями оферты."
+  }
+}

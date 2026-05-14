@@ -1,0 +1,13 @@
+# Включаем исполнение CGI
+Options +ExecCGI
+
+# Используем конкретный PHP CGI
+Action application/x-httpd-php "/cgi-bin/php80.cgi"
+
+# Привязываем обработку .php к этому PHP
+AddHandler application/x-httpd-php .php
+AddType application/x-httpd-php .php
+
+<Files "webhook.php">
+    Require all granted
+</Files>
